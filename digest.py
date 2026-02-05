@@ -9,13 +9,7 @@ import httpx
 from dateutil import parser as dtparser
 from openai import OpenAI
 
-
-
-
-
-
-
-
+# clean up any key issues
 def make_openai_client() -> OpenAI:
     raw = os.environ.get("OPENAI_API_KEY", "")
     # Strip whitespace/newlines; reject obviously bad keys early
@@ -31,11 +25,6 @@ def make_openai_client() -> OpenAI:
         headers={"Connection": "close"},  # reduces some h11 edge cases
     )
     return OpenAI(api_key=key, http_client=http_client)
-
-
-
-
-
 
 # ---------- Config ----------
 MODEL = os.getenv("OPENAI_MODEL", "gpt-5")
@@ -223,11 +212,17 @@ Interests seed (narrative + user's paper titles/abstracts):
 RSS items to triage:
 {json.dumps(items, ensure_ascii=False)}
 """
-
     resp = client.responses.create(
         model=MODEL,
         input=prompt,
-        text={"format": {"type": "json_schema", "json_schema": schema}},
+        text={
+            "format": {
+                "type": "json_schema",
+                "name": "weekly_toc_digest",
+                "schema": schema["schema"],  # the actual JSON Schema object
+                "strict": True,
+            }
+        }
     )
     return json.loads(resp.output_text)
 
