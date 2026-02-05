@@ -17,141 +17,13 @@ fooof
 bycycle
 
 ## Current narrative
-# These are just from my NIH biosketch
-Neural data science: My research program makes extensive use of many heterogeneous datasets
-from multiple different species in order to converge on our physiological and cognitive questions of
-interest. We leverage large-scale data analysis and we have moved to an “open science” format,
-including the publishing of available data (when appropriate and authorized) as well as publishing all
-analysis code using free and open software (e.g., Python). I’ve demonstrated how data mining of the
-peer-reviewed neuroscientific literature can aid research and scientific discovery (b). In an invited
-commentary, I argue the advantages of creating an open data ecosystem for facilitating these kinds of
-data-mining projects (a) and (c). All of my methods and data (where possible) are made public, and
-my lab has been developing interactive tutorials and publishing software packages made freely
-available to everyone on GitHub, including software for basic neural data digital signal processing. I
-have adopted an open education approach in my undergraduate data science teaching, leveraging a
-variety of technological platforms, which we have recently formalized and shared (d). In an upcoming,
-accepted Commentary to be published in Nature Methods, I argue that the future of Neural Data Science will be in combing the many, massive, heterogeneous datasets being collected around the
-world (human fMRI, gene expression, connectivity, etc.). And that, once integrated, these datasets
-can be mined across features, which will help spur the development of new hypotheses.
-a. Donoghue T, Voytek B, Ellis S. Teaching Creative and Practical Data Science at Scale. Journal of
-Statistics and Data Science Education. 2021 March 22; 29(sup1):S27-S39.
-b. Voytek B. Social Media, Open Science, and Data Science Are Inextricably Linked. Neuron. 2017
-Dec 20;96(6):1219-1222. PubMed PMID: 29224728.
-c. Voytek B. The Virtuous Cycle of a Data Ecosystem. PLoS Comput Biol. 2016
-Aug;12(8):e1005037. PubMed Central PMCID: PMC4974004.
-d. Voytek JB, Voytek B. Automated cognome construction and semi-automated hypothesis
-generation. J Neurosci Methods. 2012 Jun 30;208(1):92-100. PubMed Central PMCID:
-PMC3376233.
+My research focuses on large-scale neural and physiological dynamics using computational and data-science approaches across species and recording modalities. I work extensively with heterogeneous datasets (EEG, LFP, iEEG, behavioral and physiological signals), emphasizing open science, reproducible methods, and scalable analysis tools for neural time series.
 
-Neural oscillation waveform shape informs physiology and cognition: My lab has recently pioneered
-an entirely new physiological framework for analyzing the shape of neural oscillations, showing that
-nonsinusoidal features of oscillations may reflect alterations in synaptic input in e.g., Parkinson’s
-disease (b). Additionally, we introduced a novel suite of tools for analyzing the shape of local field
-potential and EEG waveforms, which we argue provide for better inference of the physiology of the
-field potential generators and how they are influenced by cognitive, behavioral, and disease states (a).
-Next, we have introduced a suite of Python tools—tested and validated against simulated ground-truth
-and animal data—for performing these analyses, including full tutorials, demonstrating how this
-approach gives better estimates of oscillation features (c). Leveraging our waveform shape analysis
-and spectral parameterization toolboxes funded by our current NIGMS R01, and a longitudinal dataset
-of publicly-available baby EEG data, we showed that oscillation waveform shape and aperiodic activity
-develops quickly in infants in the first few months after birth (d).
-a. Schaworonkow N, Voytek B. Longitudinal changes in aperiodic and periodic activity in
-electrophysiological recordings in the first seven months of life. Dev Cogn Neurosci. 2021
-Feb;47:100895. PubMed Central PMCID: PMC7734223.
-b. Cole S, Voytek B. Cycle-by-cycle analysis of neural oscillations. J Neurophysiol. 2019 Aug
-1;122(2):849-861. PubMed PMID: 31268801.
-c. Cole SR, van der Meij R, Peterson EJ, de Hemptinne C, Starr PA, Voytek B. Nonsinusoidal Beta
-Oscillations Reflect Cortical Pathophysiology in Parkinson's Disease. J Neurosci. 2017 May
-3;37(18):4830-4840. PubMed Central PMCID: PMC5426572.
-d. Cole SR, Voytek B. Brain Oscillations and the Importance of Waveform Shape. Trends Cogn Sci.
-2017 Feb;21(2):137-149. PubMed PMID: 28063662.
+A central theme of my work is developing and applying methods to better characterize neural oscillations and aperiodic (1/f-like) activity. My lab pioneered approaches to analyzing oscillatory waveform shape and spectral parameterization, demonstrating that nonsinusoidal features and aperiodic structure provide insight into synaptic physiology, excitation–inhibition balance, cognitive function, and development. We develop and release open-source Python tools for neural signal processing and apply them to large longitudinal and cross-species datasets to link brain dynamics with cognition, behavior, and disease.
 
-Aperiodic activity tracks excitation/inhibition (EI) balance and cognition: We previously showed that
-1/f-like spectral “neural noise” is associated with cognitive impairments and age-related working
-memory decline. More recently we have explored the neural origins of changes in this 1/f-like aspect
-of the power spectrum. Specifically, we developed a novel theoretical framework whereby we argued
-that EI imbalances impact neural spiking and information transmission (b). Next, using a mix of
-computational modeling as well as data from rat hippocampal recordings and macaque cortex, we
-demonstrated that this aperiodic, 1/f-like signal may index EI balance (a). Most recently, with our
-current NIGMS R01 support, we developed an extensive analytic framework for disentangling this
-aperiodic activity from oscillations, providing a robust parameterization toolbox, demonstrating how it
-can be leveraged to uncover novel links to working memory, and to analyze very large datasets (d).
-Leveraging this toolbox and a longitudinal dataset of baby EEG, we showed that aperiodic activity
-develops quickly in infants in the first few months after birth (c).
-a. Schaworonkow N, Voytek B. Longitudinal changes in aperiodic and periodic activity in
-electrophysiological recordings in the first seven months of life. Dev Cogn Neurosci. 2021
-Feb;47:100895. PubMed Central PMCID: PMC7734223.
-b. Donoghue T, Haller M, Peterson EJ, Varma P, Sebastian P, Gao R, Noto T, Lara AH, Wallis JD,
-Knight RT, Shestyuk A, Voytek B. Parameterizing neural power spectra into periodic and aperiodic
-components. Nat Neurosci. 2020 Dec;23(12):1655-1665. PubMed Central PMCID: PMC8106550.
-c. Gao R, Peterson EJ, Voytek B. Inferring synaptic excitation/inhibition balance from field potentials.
-Neuroimage. 2017 Sep;158:70-78. PubMed PMID: 28676297.
-d. Voytek B, Knight RT. Dynamic network communication as a unifying neural basis for cognition,
-development, aging, and disease. Biol Psychiatry. 2015 Jun 15;77(12):1089-97. PubMed Central
-PMCID: PMC4443259.
+More broadly, I study how neural oscillations, aperiodic activity, and neuronal timescales support computation and information transfer in brain networks. Using invasive and noninvasive electrophysiology, computational modeling, and large-scale data integration, my work shows how these features relate to working memory, attention, development, and aging. I am particularly interested in theoretical and methodological advances that improve interpretation of neural and physiological time series, enable biomarker discovery, and connect brain dynamics to cognition and clinical outcomes.
 
-Oscillations as neural computational mechanism: To examine the role that neural oscillations play in
-cognition and in coordinating information transfer between brain regions, we have made significant
-use of invasive electroencephalography (iEEG) in people undergoing surgery for intractable epilepsy.
-To address our cognitive questions of interest, we have developed several novel methods, including a
-novel metric for assessing the relationship between low-frequency oscillations and local population
-spiking activity, known as phase-amplitude coupling (PAC) (b). Taking advantage of this new
-approach, we showed how oscillatory dynamics play a critical role in coordinating cognitive networks
-during human goal maintenance (a). We found that oscillatory networks form quickly, with different
-task goals represented at different coupling phases to permit directional information transfer on a trial-
-by-trial basis. Through collaboration, we have examined the physiological origin of oscillations and
-their development through the use of 3D, human induced pluripotent stem cell cortical organoids. We
-found that oscillations naturally emerge with development, dependent on functioning excitatory /
-inhibitory (glutamatergic and GABAergic) interactions (c). Finally, to understand the potential
-functional / computational role that oscillations play in cognition, we must first be certain we are
-actually measuring oscillations as intended. To that end, with our current NIGMS R01 support, we
-recently published a checklist of seven technical points that one must carefully consider when
-approaching the study of oscillations (d).
-a. Donoghue T, Schaworonkow N, Voytek B. Methodological considerations for studying neural
-oscillations. Eur J Neurosci. 2022 Jun;55(11-12):3502-3527. PubMed Central PMCID:
-PMC8761223.
-b. Trujillo CA, Gao R, Negraes PD, Gu J, Buchanan J, Preissl S, Wang A, Wu W, Haddad GG,
-Chaim IA, Domissy A, Vandenberghe M, Devor A, Yeo GW, Voytek B, Muotri AR. Complex
-Oscillatory Waves Emerging from Cortical Organoids Model Early Human Brain Network
-Development. Cell Stem Cell. 2019 Oct 3;25(4):558-569.e7. PubMed Central PMCID:
-PMC6778040.
-c. Voytek B, Kayser AS, Badre D, Fegen D, Chang EF, Crone NE, Parvizi J, Knight RT, D'Esposito
-M. Oscillatory dynamics coordinating human frontal networks in support of goal maintenance. Nat
-Neurosci. 2015 Sep;18(9):1318-24. PubMed Central PMCID: PMC4551604.
-d. Voytek B, D'Esposito M, Crone N, Knight RT. A method for event-related phase/amplitude
-coupling. Neuroimage. 2013 Jan 1;64:416-24. PubMed Central PMCID: PMC3508071.
-
-The neural basis of age-related cognitive decline: Drawing on my past work showing that aperiodic
-“noise” is associated with cognitive impairments and age-related working memory decline, my lab has
-begun work exploring the more precise neural origins of aperiodic activity and how it interacts with
-oscillations and cognition. We tested the role that oscillatory disruptions contribute to age-related
-cognitive decline by showing that oscillations in visual cortex in healthy older adults fail to reset in
-response to informative cues that alert them to upcoming working memory challenge (a). Importantly,
-this failure of oscillatory disruptions predicted the degree of working memory impairment among older
-adults. In another study, we show that the increased putative EI “noise” among older adults is linked to
-oscillatory disruptions, which in turn are linked to visual attention impairments among older adults (b).
-Using our novel analytical framework for separating oscillatory and aperiodic activity, funded by our
-current NIGMS R01, we showed that both oscillatory visual cortical alpha power and aperiodic power
-predict individual visual working memory performance among older adults (c). Finally, also with our
-current NIGMS R01 funding, we have also adopted a "data science" approach of combining multiple large, heterogenous human brain datasets to show that this aperiodic neural activity is mathematically
-related to population neuronal timescales. Whole-brain iEEG mapping of these timescales shows a
-gradient that increases along the principal sensorimotor-to-association axis across the entire human
-cortex, which shows direct alignment with the expression of excitation- and inhibition-related genes,
-as well as genes specific to voltage-gated transmembrane ion transporters. Finally, we showed that
-neuronal timescales are functionally dynamic: prefrontal cortex timescales expand during working
-memory maintenance and predict individual performance, while cortex-wide timescales compress with
-aging (d).
-a. Donoghue T, Haller M, Peterson EJ, Varma P, Sebastian P, Gao R, Noto T, Lara AH, Wallis JD,
-Knight RT, Shestyuk A, Voytek B. Parameterizing neural power spectra into periodic and aperiodic
-components. Nat Neurosci. 2020 Dec;23(12):1655-1665. PubMed Central PMCID: PMC8106550.
-b. Gao R, van den Brink RL, Pfeffer T, Voytek B. Neuronal timescales are functionally dynamic and
-shaped by cortical microarchitecture. Elife. 2020 Nov 23;9 PubMed Central PMCID: PMC7755395.
-c. Tran TT, Rolle CE, Gazzaley A, Voytek B. Linked Sources of Neural Noise Contribute to Age-
-related Cognitive Decline. J Cogn Neurosci. 2020 Sep;32(9):1813-1822. PubMed Central PMCID:
-PMC7474516.
-d. Tran TT, Hoffner NC, LaHue SC, Tseng L, Voytek B. Alpha phase dynamics predict age-related
-visual working memory decline. Neuroimage. 2016 Dec;143:196-203. PubMed PMID: 27577719.
-
+I prioritize research that introduces new analytic methods, theoretical frameworks, or empirical findings relevant to neural dynamics, physiological signal analysis, and cross-scale brain–behavior relationships.
 
 ## My papers (titles + abstracts)
 * Voytek JB & Voytek B. Automated cognome construction and semi-automated hypothesis generation. J Neurosci Methods 208, 92-100 (2012).
@@ -164,11 +36,7 @@ visual working memory decline. Neuroimage. 2016 Dec;143:196-203. PubMed PMID: 27
 
 * Cole SR, van der Meij R, Peterson EJ, de Hemptinne C, Starr PA, Voytek B. Nonsinusoidal beta oscillations reflect cortical pathophysiology in Parkinson's disease. J Neurosci 37, 4830-4840 (2017).
 
-* Voytek B, Samaha J, Rolle CE, Greenberg Z, Gill N, Porat S, Kader T, Rahman S, Malzyner R, Gazzaley A. Preparatory encoding of the fine scale of human spatial attention. J Cogn Neurosci 29, 1302-1310 (2017).
-
 * Gao RD, Peterson EJ, Voytek B. Inferring synaptic excitation/inhibition balance from field potentials. NeuroImage 158, 70-78 (2017).
-
-* van der Meij R & Voytek B. Uncovering neuronal networks defined by consistent between-neuron spike timing from neuronal spike recordings. eNeuro 5, (2018).
 
 * Moore SM, Seidman JS, Ellegood J, Gao R, Savchenko A, Troutman TD, Abe Y, Stender J, Lee D, Wang S, Voytek B, Lerch JP, Suh H, Glass C, Muotri A. Setd5 haploinsufficiency alters neuronal network connectivity and leads to autistic-like behaviors in mice. Translational Psychiatry 9, 1-12 (2019).
 

@@ -21,7 +21,7 @@ def make_openai_client() -> OpenAI:
     http_client = httpx.Client(
         timeout=httpx.Timeout(
             connect=30.0,
-            read=180.0,   # <-- key: allow slow responses
+            read=300.0,   # <-- key: allow slow responses
             write=30.0,
             pool=30.0,
         ),
