@@ -25,26 +25,26 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install --upgrade openai httpx certifi
+          pip install --upgrade anthropic httpx certifi
 
-      - name: Network check (OpenAI)
+      - name: Network check (Anthropic)
         run: |
           python - << 'PY'
           import socket
-          host = "api.openai.com"
+          host = "api.anthropic.com"
           print("Resolving:", host)
           print(socket.gethostbyname(host))
           print("OK: DNS resolve")
           PY
-          curl -I https://api.openai.com/v1/models --max-time 20
+          curl -I https://api.anthropic.com/v1/messages --max-time 20
 
       - name: Run digest
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           HTTP_PROXY: ""
           HTTPS_PROXY: ""
           ALL_PROXY: ""
-          NO_PROXY: "api.openai.com"
+          NO_PROXY: "api.anthropic.com"
           MIN_SCORE_READ: "0.35"
           LOOKBACK_DAYS: "7"
           SUMMARY_MAX_CHARS: "500"

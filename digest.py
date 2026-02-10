@@ -4,11 +4,11 @@ from datetime import datetime, timezone, timedelta
 import feedparser
 import httpx
 from dateutil import parser as dtparser
-from openai import OpenAI, APITimeoutError, APIConnectionError, RateLimitError
+from anthropic import Anthropic, APIStatusError, APIResponseValidationError, APIError
 
 
 # ---- config (env-tweakable) ----
-MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-20241022")
 MAX_ITEMS_PER_FEED = int(os.getenv("MAX_ITEMS_PER_FEED", "50"))
 MAX_TOTAL_ITEMS = int(os.getenv("MAX_TOTAL_ITEMS", "400"))
 LOOKBACK_DAYS = int(os.getenv("LOOKBACK_DAYS", "7"))
@@ -181,20 +181,14 @@ def keyword_prefilter(items: list[dict], keywords: list[str], keep_top: int) -> 
     return matched[:keep_top]
 
 
-# ---- openai ----
-def make_openai_client() -> OpenAI:
-    key = os.environ.get("OPENAI_API_KEY", "").strip()
-    if not key.startswith("sk-"):
-        raise RuntimeError("OPENAI_API_KEY missing/invalid (expected to start with 'sk-').")
-    http_client = httpx.Client(
-        timeout=httpx.Timeout(connect=30.0, read=300.0, write=30.0, pool=30.0),
-        http2=False,
-        trust_env=False,
-        headers={"Connection": "close", "Accept-Encoding": "gzip"},
-    )
-    return OpenAI(api_key=key, http_client=http_client)
+# ---- anthropic ----
+def make_anthropic_client() -> Anthropic:
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key.startswith("sk-ant-"):
+        raise RuntimeError("ANTHROPIC_API_KEY missing/invalid (expected to start with 'sk-ant-').")
+    return Anthropic(api_key=key)
 
-def call_openai_triage(client: OpenAI, interests: dict, items: list[dict]) -> dict:
+def call_claude_triage(client: Anthropic, interests: dict, items: list[dict]) -> dict:
     lean_items = [{
         "id": it["id"],
         "source": it["source"],
@@ -213,21 +207,37 @@ def call_openai_triage(client: OpenAI, interests: dict, items: list[dict]) -> di
         .replace("{{ITEMS}}", json.dumps(lean_items, ensure_ascii=False))
     )
 
+    tools = [
+        {
+            "name": "generate_digest",
+            "description": "Generate a weekly ToC digest from ranked items.",
+            "input_schema": SCHEMA
+        }
+    ]
+
     last = None
     for attempt in range(6):
         try:
-            resp = client.responses.create(
+            response = client.messages.create(
                 model=MODEL,
-                input=prompt,
-                text={"format": {"type": "json_schema", "name": "weekly_toc_digest", "schema": SCHEMA, "strict": True}},
+                max_tokens=4096,
+                tools=tools,
+                tool_choice={"type": "tool", "name": "generate_digest"},
+                messages=[
+                    {"role": "user", "content": prompt}
+                ]
             )
-            return json.loads(resp.output_text)
-        except (APITimeoutError, APIConnectionError, RateLimitError) as e:
+            # Find the tool use block
+            for block in response.content:
+                if block.type == "tool_use" and block.name == "generate_digest":
+                    return block.input
+            raise RuntimeError("Claude did not call the generate_digest tool.")
+        except (APIStatusError, APIResponseValidationError, APIError) as e:
             last = e
             time.sleep(min(60, 2 ** attempt))
     raise last
 
-def triage_in_batches(client: OpenAI, interests: dict, items: list[dict], batch_size: int) -> dict:
+def triage_in_batches(client: Anthropic, interests: dict, items: list[dict], batch_size: int) -> dict:
     week_of = datetime.now(timezone.utc).date().isoformat()
     total = math.ceil(len(items) / batch_size)
     all_ranked, notes_parts = [], []
@@ -235,7 +245,7 @@ def triage_in_batches(client: OpenAI, interests: dict, items: list[dict], batch_
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
         print(f"Triage batch {i // batch_size + 1}/{total} ({len(batch)} items)")
-        res = call_openai_triage(client, interests, batch)
+        res = call_claude_triage(client, interests, batch)
         if res.get("notes", "").strip():
             notes_parts.append(res["notes"].strip())
         all_ranked.extend(res.get("ranked", []))
@@ -308,7 +318,7 @@ def main():
     print(f"Sending {len(items)} RSS items to model (post-filter)")
 
     items_by_id = {it["id"]: it for it in items}
-    client = make_openai_client()
+    client = make_anthropic_client()
 
     result = triage_in_batches(client, interests, items, batch_size=BATCH_SIZE)
     md = render_digest_md(result, items_by_id)
