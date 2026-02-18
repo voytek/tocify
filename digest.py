@@ -160,15 +160,8 @@ def keyword_prefilter(items: list[dict], keywords: list[str], keep_top: int) -> 
 
 
 # ---- cursor ----
-def _cursor_cli() -> str:
-    return os.getenv("TOCIFY_CURSOR_CLI", "cursor").strip() or "cursor"
-
-
 def _cursor_api_key() -> str:
-    return (
-        os.environ.get("CURSOR_API_KEY", "").strip()
-        or os.environ.get("TOCIFY_API_KEY", "").strip()
-    )
+    return os.environ.get("CURSOR_API_KEY", "").strip()
 
 
 def call_cursor_triage(interests: dict, items: list[dict]) -> dict:
@@ -189,13 +182,13 @@ def call_cursor_triage(interests: dict, items: list[dict]) -> dict:
         .replace("{{ITEMS}}", json.dumps(lean_items, ensure_ascii=False))
     )
 
-    cli = _cursor_cli()
+    args = ["agent", "-p", "--output-format", "text", "--trust", prompt]
     last = None
     result = None
     for attempt in range(6):
         try:
             result = subprocess.run(
-                [cli, "-p", "--output-format", "text", prompt],
+                args,
                 capture_output=True,
                 text=True,
                 env=os.environ,
@@ -303,7 +296,7 @@ def main():
 
     if not _cursor_api_key():
         raise RuntimeError(
-            "CURSOR_API_KEY or TOCIFY_API_KEY must be set (get key from Cursor settings)."
+            "CURSOR_API_KEY must be set (get key from Cursor settings)."
         )
     result = triage_in_batches(interests, items, BATCH_SIZE)
     md = render_digest_md(result, items_by_id)
