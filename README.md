@@ -1,49 +1,62 @@
-# tocify — Weekly Journal ToC Digest (RSS → Cursor → `digest.md`)
+# tocify — Weekly Journal ToC Digest (RSS → triage → `digest.md`)
 
 This repo runs a GitHub Action once a week (or on-demand) that:
 
 1. pulls new items from a list of journal RSS feeds  
-2. uses the Cursor CLI to triage which items match your research interests  
+2. triages items against your research interests (OpenAI API or Cursor CLI)  
 3. writes a ranked digest to `digest.md` and commits it back to the repo
 
 It’s meant to be forked and customized.
-
-This was almost entirely vibe-coded as an exercise (I'm pleased at how well it works!)
 
 ---
 
 ## What’s in this repo
 
-- **`digest.py`** — the pipeline (fetch RSS → filter → Cursor triage → render markdown)
-- **`feeds.txt`** — RSS feed list (supports comments; optionally supports `Name | URL`)
-- **`interests.md`** — your keywords + narrative seed (used for relevance)
-- **`prompt.txt`** — the prompt template (easy to tune without editing Python)
+- **`digest.py`** — pipeline (fetch RSS → filter → triage → render markdown)
+- **`integrations/`** — optional Cursor CLI triage backend (default: in-file OpenAI in digest.py)
+- **`feeds.txt`** — RSS feed list (comments; optional `Name | URL`)
+- **`interests.md`** — keywords + narrative (used for relevance)
+- **`prompt.txt`** — prompt template (used by OpenAI and Cursor backends)
 - **`digest.md`** — generated output (auto-updated)
-- **`.github/workflows/weekly-digest.yml`** — scheduled GitHub Action runner
+- **`.github/workflows/weekly-digest.yml`** — scheduled GitHub Action
 - **`requirements.txt`** — Python dependencies
+- **`.python-version`** — pinned Python version (used by uv, pyenv, etc.)
 
 ---
 
-## Quick start (fork + run)
+## Environment
 
-### 1) Fork the repo
-- Click **Fork** on GitHub to copy this repo into your account.
+Python version is pinned in **`.python-version`** (e.g. `3.11`). The repo supports **[uv](https://docs.astral.sh/uv/)** for fast, reproducible installs:
 
-### 2) Cursor CLI and API key
-Ensure the **Cursor CLI** (`cursor` or `agent`) is installed and on `PATH` where the digest runs (e.g. your machine for local runs; for GitHub Actions you must use a runner or step that provides it). Get your API key from Cursor settings.
+```bash
+# Install uv (https://docs.astral.sh/uv/getting-started/installation/), then:
+uv venv
+uv pip install -r requirements.txt
+uv run python digest.py
+```
 
-**Important:** never commit this key to the repo.
+Alternatively use pip and a venv as usual; the GitHub workflow uses uv and reads `.python-version`.
 
-### 3) Add the API key as a GitHub Actions secret
-In your forked repo:
-- Go to **Settings → Secrets and variables → Actions**
-- Click **New repository secret**
-- Name: `CURSOR_API_KEY`
-- Value: paste your Cursor API key
+---
 
-GitHub will inject it into the workflow at runtime.
+## Quick start (layperson: OpenAI)
 
-### 4) Configure your feeds
+1. **Fork** the repo.
+2. Set **`OPENAI_API_KEY`** (get one from platform.openai.com). Never commit it.
+3. Locally: copy `.env.example` to `.env`, add your key, run `python digest.py`.
+4. For GitHub Actions: add secret **`OPENAI_API_KEY`** in Settings → Secrets. The workflow will use it; no CLI needed.
+
+## Quick start (Cursor CLI)
+
+1. **Fork** the repo.
+2. Install the Cursor CLI and set **`CURSOR_API_KEY`** (Cursor settings).
+3. For GitHub Actions: add secret **`CURSOR_API_KEY`** and keep the workflow’s Cursor install step.
+
+Backend is auto-chosen from which key is set, or set **`TOCIFY_BACKEND=openai`** or **`cursor`** to force.
+
+---
+
+## Configure your feeds
 Edit **`feeds.txt`**.
 
 You can use comments:
