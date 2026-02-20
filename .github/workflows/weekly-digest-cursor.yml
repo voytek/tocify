@@ -1,4 +1,4 @@
-name: Weekly ToC Digest (OpenAI)
+name: Weekly ToC Digest (Cursor)
 
 on:
   schedule:
@@ -29,28 +29,15 @@ jobs:
       - name: Install deps
         run: uv sync
 
-      - name: Network check (OpenAI)
+      - name: Install Cursor CLI
         run: |
-          uv run python - << 'PY'
-          import socket
-          host = "api.openai.com"
-          print("Resolving:", host)
-          print(socket.gethostbyname(host))
-          print("OK: DNS resolve")
-          PY
-          curl -I https://api.openai.com/v1/models --max-time 20 || true
-
-      - name: Show proxy-related env (debug)
-        run: |
-          echo "HTTP_PROXY=$HTTP_PROXY"
-          echo "HTTPS_PROXY=$HTTPS_PROXY"
-          echo "ALL_PROXY=$ALL_PROXY"
-          echo "NO_PROXY=$NO_PROXY"
+          curl https://cursor.com/install -fsS | bash
+          echo "$HOME/.cursor/bin" >> $GITHUB_PATH
 
       - name: Run digest
         env:
-          TOCIFY_BACKEND: "openai"
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TOCIFY_BACKEND: "cursor"
+          CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
           HTTP_PROXY: ""
           HTTPS_PROXY: ""
           ALL_PROXY: ""
@@ -60,7 +47,9 @@ jobs:
           SUMMARY_MAX_CHARS: "500"
           PREFILTER_KEEP_TOP: "200"
           BATCH_SIZE: "50"
-        run: uv run python digest.py
+        run: |
+          export PATH="$HOME/.cursor/bin:$PATH"
+          uv run python digest.py
 
       - name: Commit digest.md
         run: |
