@@ -1,194 +1,187 @@
-# Weekly ToC Digest (week of 2026-06-15)
+# Weekly ToC Digest (week of 2026-06-22)
 
-Most relevant to interests are papers involving neural/physiological time series, signal processing methods, and cross-species electrophysiology. Prioritize items containing keywords related to oscillations, electrophysiology, and neural dynamics. Exclude those lacking computational or physiological methods. Highlighted papers focus on neural oscillations, signal processing, and physiological time series methods, aligning with prioritized interests. No papers met the user's interest in neural/physiological time series analysis or related methods.
+No items directly match your research focus, but further analysis prioritizes relevant intersection with neural dynamics. Prioritized based on relevance to neural dynamics, oscillations, methods, and other specified interests. The selected papers focus on methods for neural dynamics, signal processing, and electrophysiology, aligning with user interests. Prioritized based on user's emphasis on physiological time series, oscillations, and methods for neural data analysis. Papers lacking these elements were de-emphasized.
 
 **Included:** 11 (score ≥ 0.35)  
-**Scored:** 13 total items
+**Scored:** 25 total items
 
 ---
 
-## [Interplay of sleep neural oscillations enhances coordinated memory reactivation between cortex and hippocampus](https://www.biorxiv.org/content/10.64898/2026.06.12.731367v1?rss=1)
+## [Revisiting post-stimulus theta activity: evidence for an aperiodic rather than oscillatory origin](https://www.biorxiv.org/content/10.64898/2026.06.16.732609v1?rss=1)
 *bioRxiv*  
-Score: **0.95**  
-Published: 2026-06-12T00:00:00+00:00
-Tags: oscillations, sleep, hippocampus
-
-The paper explores synchronized neural oscillations during sleep, a key interest in oscillations and neural dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Memory consolidation during sleep requires coordinated reactivation of specific experiences across hippocampus and cortex. This process occurs with synchronized neural oscillations including cortical slow waves, thalamocortical spindles, and hippocampal sharp-wave ripples. While temporal coupling of these rhythms is implicated in consolidation, a fundamental question remains: do oscillations reflect a general increase in communication, or do they selectively coordinate which memories are reactiv…
-
-</details>
-
----
-
-## [Accurately modeling resting-brain functional connectivity using hypergraph neural field-Fourier deep neural network](https://www.nature.com/articles/s41598-026-57930-3)
-*Scientific Reports*  
 Score: **0.90**  
-Published: 2026-06-15T00:00:00+00:00
-Tags: methods, functional connectivity, neural networks
+Published: 2026-06-22T00:00:00+00:00
+Tags: aperiodic, EEG, oscillations
 
-This paper discusses advanced modeling techniques blending neural fields and Fourier deep networks, highly relevant for methods in neural time series.
+Focus on aperiodic activity, important for understanding underlying neural dynamics rather than noise.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Scientific Reports, Published online: 15 June 2026; <a href="https://www.nature.com/articles/s41598-026-57930-3">doi:10.1038/s41598-026-57930-3</a></p>Accurately modeling resting-brain functional connectivity using hypergraph neural field-Fourier deep neural network
+The aperiodic, 1/f-like component of electrophysiological activity is increasingly recognized as a meaningful feature of neural function, rather than background noise. In parallel, many EEG studies report transient changes in oscillatory power following stimulus onset and interpret these effects as signatures of attention, salience, or cognitive control. However, such conclusions usually rely on baseline normalization procedures that assume aperiodic activity remains stable from pre- to post-sti…
 
 </details>
 
 ---
 
-## [Excess EEG beta-band oscillations in Dup15q syndrome correlate with clinical severity](https://www.nature.com/articles/s41398-026-04171-7)
-*Trans Psychiatry*  
+## [How stimulation waveform shape affects collective oscillations in the brain networks](https://www.biorxiv.org/content/10.64898/2026.06.16.732561v1?rss=1)
+*bioRxiv*  
 Score: **0.90**  
-Published: 2026-06-15T00:00:00+00:00
-Tags: EEG, oscillations
+Published: 2026-06-22T00:00:00+00:00
+Tags: oscillations, waveform, modeling
 
-Focus on excess EEG beta-band oscillations, highly relevant to oscillations and electrophysiology.
+Explores how waveform shapes influence brain oscillations, relevant for neural dynamics and modeling.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Translational Psychiatry, Published online: 15 June 2026; <a href="https://www.nature.com/articles/s41398-026-04171-7">doi:10.1038/s41398-026-04171-7</a></p>Excess EEG beta-band oscillations in Dup15q syndrome correlate with clinical severity
+Brain oscillations emerge from nonlinear interactions across anatomically connected neural populations, alternating between transiently coordinated and desynchronised states. Transcranial alternating current stimulation (tACS) can modulate these dynamics, but most work has focused on frequency and amplitude, leaving waveform shape comparatively unexplored. Here we used a whole-brain model of delay-coupled Stuart--Landau oscillators constrained by empirical human structural connectivity to determ…
 
 </details>
 
 ---
 
-## [Disrupted hippocampal theta-gamma coupling and spike-field coherence following experimental traumatic brain injury](https://elifesciences.org/articles/100642)
-*eLife*  
-Score: **0.87**  
-Published: 2026-06-12T00:00:00+00:00
-Tags: theta-gamma, hippocampus, oscillations
+## [Brain-wide topographic coordination of rotating waves](https://www.science.org/doi/abs/10.1126/science.adx1369?af=R)
+*Science*  
+Score: **0.90**  
+Published: 2026-06-18T07:00:00+00:00
+Tags: oscillations, neural_dynamics
 
-Focuses on theta-gamma coupling and oscillatory power, which are relevant to neuronal oscillations and timescales.
+Covers oscillations and aperiodic dynamics, focusing on rotating waves which are relevant to neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Traumatic brain injury (TBI) often results in persistent learning and memory deficits, likely due to disrupted hippocampal circuitry underlying these processes. Precise temporal control of hippocampal neuronal activity is thought to be important for memory encoding and retrieval and is supported by oscillations that dynamically organize single-unit firing. Using high-density laminar electrophysiology, we found a loss of oscillatory power across CA1 lamina, with a profound, layer-specific reducti…
+Science, Volume 392, Issue 6804, June 2026. <br />
 
 </details>
 
 ---
 
-## [Integrating neuroscience across species and scales](https://www.nature.com/articles/s41593-026-02346-5)
-*Nature Neuroscience*  
+## [Potential mechanisms and functional significance of aperiodic neural activity](https://www.nature.com/articles/s41562-026-02503-7)
+*Nature Human Behav*  
 Score: **0.85**  
-Published: 2026-06-15T00:00:00+00:00
-Tags: cross-species, electrophysiology, neuroscience
+Published: 2026-06-22T00:00:00+00:00
+Tags: aperiodic, neural dynamics
 
-Focuses on cross-species electrophysiology and integrating diverse datasets, aligning well with interests in physiological signal processing.
+Aperiodic activity's significance for brain function relates to user interest in neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Neuroscience, Published online: 15 June 2026; <a href="https://www.nature.com/articles/s41593-026-02346-5">doi:10.1038/s41593-026-02346-5</a></p>Neuroscientists have an ever-expanding array of tools for measuring brain activity at multiple scales, motivating efforts to integrate diverse datasets and capitalize on their complementary strengths. The new Triple-N dataset introduced by Li et al. tackles this challenge by conducting large-scale macaque electrophysiology in an experimental p…
+<p>Nature Human Behaviour, Published online: 22 June 2026; <a href="https://www.nature.com/articles/s41562-026-02503-7">doi:10.1038/s41562-026-02503-7</a></p>In this Review, Preston, Smith and Voytek examine aperiodic neural activity in the brain and how measuring aperiodic activity can shed light on brain function and disease.
 
 </details>
 
 ---
 
-## [Association of glymphatic function with 40-Hz neural oscillations, systemic metabolic markers, and cognitive performance in healthy aging adults: An EEG and MRI study](https://www.nature.com/articles/s41398-026-04157-5)
+## [Rethinking EEG biomarkers of brain disorders: a transdiagnostic dimensional view](https://www.nature.com/articles/s41398-026-04187-z)
 *Trans Psychiatry*  
 Score: **0.85**  
-Published: 2026-06-13T00:00:00+00:00
-Tags: EEG, oscillations
+Published: 2026-06-20T00:00:00+00:00
+Tags: EEG, methods, biomarkers
 
-Involves 40-Hz neural oscillations and EEG, relevant to oscillatory dynamics.
+This study explores EEG biomarkers using a transdiagnostic approach, relevant for physiological signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Translational Psychiatry, Published online: 13 June 2026; <a href="https://www.nature.com/articles/s41398-026-04157-5">doi:10.1038/s41398-026-04157-5</a></p>Association of glymphatic function with 40-Hz neural oscillations, systemic metabolic markers, and cognitive performance in healthy aging adults: An EEG and MRI study
+<p>Translational Psychiatry, Published online: 20 June 2026; <a href="https://www.nature.com/articles/s41398-026-04187-z">doi:10.1038/s41398-026-04187-z</a></p>Rethinking EEG biomarkers of brain disorders: a transdiagnostic dimensional view
 
 </details>
 
 ---
 
-## [Developmental emergence of spatiotemporal coordination in cerebellar Purkinje cell populations](https://www.biorxiv.org/content/10.64898/2026.06.12.731562v1?rss=1)
+## [Decoding Chronic Pain States from Distributed Intracranial Recordings](https://www.biorxiv.org/content/10.64898/2026.06.16.732555v1?rss=1)
 *bioRxiv*  
-Score: **0.82**  
-Published: 2026-06-12T00:00:00+00:00
-Tags: cerebellum, neural coordination, spatiotemporal
-
-Examines coordinated neuronal activity with whole-cerebellar calcium imaging, relevant to timescales and cross-species electrophysiology.
-
-<details>
-<summary>RSS summary</summary>
-
-Coordinated neuronal population activity is essential for brain function, yet how such network-level organization emerges during development remains incompletely understood. Here, we conducted whole-cerebellar calcium imaging at cellular scale in zebrafish larvae to investigate the developmental maturation of Purkinje cell population dynamics. Visual stimulation evoked large, spatially organized Purkinje cell clusters driven by inferior olive inputs and accompanied by coherent optokinetic behavi…
-
-</details>
-
----
-
-## [Exposure to false cardiac feedback alters pain perception and anticipatory cardiac frequency](https://elifesciences.org/articles/90013)
-*eLife*  
-Score: **0.80**  
-Published: 2026-06-15T00:00:00+00:00
-Tags: ECG, interoception, pain perception
-
-Examines the integration of interoceptive signals with potential applications in physiological signal processing, such as ECG.
-
-<details>
-<summary>RSS summary</summary>
-
-The experience of pain, like other interoceptive processes, has recently been conceptualized in terms of predictive coding and free energy frameworks. In these views, the brain integrates sensory, proprioceptive, and interoceptive signals to generate probabilistic inferences about upcoming events, which shape both the state and the perception of our inner body. Here, we ask whether it is possible to induce pain expectations by providing false faster (vs. slower) acoustic cardiac feedback before …
-
-</details>
-
----
-
-## [Video-based eye movements are linked to cortical and pupil-based arousal in human sleep](https://www.biorxiv.org/content/10.64898/2026.06.10.731319v1?rss=1)
-*bioRxiv*  
-Score: **0.78**  
-Published: 2026-06-12T00:00:00+00:00
-Tags: EEG, sleep, signal processing
-
-This study involves EEG spectral analysis, which ties into physiological signal processing interests.
-
-<details>
-<summary>RSS summary</summary>
-
-Study Objectives To quantify high-resolution video-based eye kinematics across sleep macro- and microstructure and determine their coupling with pupil-based and cortical arousal markers. Methods We recorded polysomnography and utilized infrared video-based eye-tracking in 17 healthy adults. Computer vision was employed to extract eye position and speed, which were related to pupil size (subcortical arousal marker) and EEG spectral slope (cortical arousal marker) across sleep stages, rapid eye mo…
-
-</details>
-
----
-
-## [Rapid strengthening and reversal of hippocampal-neocortical interplay mediates human memory formation](https://www.cell.com/neuron/fulltext/S0896-6273(26)00387-9?rss=yes)
-*Neuron*  
 Score: **0.75**  
-Published: 2026-06-15T00:00:00+00:00
-Tags: hippocampus, memory, electrophysiology
+Published: 2026-06-22T00:00:00+00:00
+Tags: intracranial, neural data, pain
 
-Involves human electrophysiology data which aligns with interests in neuronal timescales and dynamics.
+Uses intracranial recordings to decode pain states, integrating neural data relevant to dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Wang et al. demonstrate that hippocampal-neocortical interactions reorganize much faster than traditionally thought. Using multiday intracranial recordings in humans, they show that after just 1 day of learning, the temporal sequence of coupled ripples reverses, with the neocortex leading the hippocampus. This suggests an early neocortical dominance in memory formation.
+Chronic pain engages distributed cortical and subcortical circuits, and large-scale intracranial recordings in humans offer a valuable opportunity to characterize its neural signatures. Here, we recorded multi-day stereoelectroencephalography (sEEG) from six participants with refractory chronic neuropathic pain, each implanted with sEEG electrodes spanning dozens of cortical and subcortical structures. Using simultaneous chronic pain ratings, we decoded spontaneous high versus low pain states wi…
 
 </details>
 
 ---
 
-## [The oracle and the didact: Orbitofrontal influences on learning and dopaminergic error signaling](https://www.cell.com/neuron/fulltext/S0896-6273(26)00370-3?rss=yes)
-*Neuron*  
+## [Evolutionarily conserved and divergent mechanisms of dual Ca2+ sensors in synaptic vesicle exocytosis](https://www.pnas.org/doi/abs/10.1073/pnas.2532992123?af=R)
+*PNAS*  
 Score: **0.70**  
-Published: 2026-06-15T00:00:00+00:00
-Tags: learning, dopamine, neural models
+Published: 2026-06-18T07:00:00+00:00
+Tags: neural_transmission, Ca2+, timescales
 
-Discusses neural model mechanisms and error signaling, which align with computational neuroscience interests.
+Relates to neuronal timescales in synaptic transmission involving Ca2+ sensors, aligning with interest in neural data.
 
 <details>
 <summary>RSS summary</summary>
 
-The orbitofrontal cortex influences behavior by representing internal models of the causal structure of the world. In this perspective, Schoenbaum and Kahnt argue that this function also supports learning by shaping error signaling in midbrain dopamine neurons and other brain areas.
+Proceedings of the National Academy of Sciences, Volume 123, Issue 25, June 2026. <br />SignificanceFast and slow neurotransmitter release is triggered by distinct synaptotagmins that serve as Ca2+sensors; however, the underlying mechanisms for their regulation remain incompletely understood. Using the genetically tractable nematode...
+
+</details>
+
+---
+
+## [Lamprey 3D single-cell transcriptomics reveals ancestral and specialized features of the vertebrate brain](https://www.science.org/doi/abs/10.1126/science.aea2535?af=R)
+*Science*  
+Score: **0.60**  
+Published: 2026-06-18T07:00:00+00:00
+Tags: neurogenetics, cross_species
+
+Explores cross-species electrophysiology, contributing insights into vertebrate brain structures.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 392, Issue 6804, June 2026. <br />
+
+</details>
+
+---
+
+## [Objective quality assessment for precision functional MRI data](https://www.cell.com/neuron/fulltext/S0896-6273(26)00412-5?rss=yes)
+*Neuron*  
+Score: **0.50**  
+Published: 2026-06-22T00:00:00+00:00
+Tags: fMRI, quality assessment
+
+Focuses on fMRI quality assessment, less relevancy due to lack of neural dynamics content.
+
+---
+
+## [Daily briefing: The brain builds a sentence neuron by neuron](https://www.nature.com/articles/d41586-026-01967-x)
+*Nature*  
+Score: **0.50**  
+Published: 2026-06-18T00:00:00+00:00
+Tags: EEG, neural_activity
+
+Tracks electrical activity of brain cells in real time, relevant to methods for neural signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature, Published online: 18 June 2026; <a href="https://www.nature.com/articles/d41586-026-01967-x">doi:10.1038/d41586-026-01967-x</a></p>Researchers have tracked the electrical activity of individual brain cells during conversation in real time. Plus, the history of GPS and a cross-species transplant that could reveal clues about the origin of animals.
+
+</details>
+
+---
+
+## [Targeted Photodegradation of Misfolded Proteins via Self-photosensitizing with Molecularly Produced Light](https://www.biorxiv.org/content/10.64898/2026.06.16.732486v1?rss=1)
+*bioRxiv*  
+Score: **0.43**  
+Published: 2026-06-22T00:00:00+00:00
+Tags: neurodegeneration, protein, photodegradation
+
+While relevant to neurodegeneration, focuses on protein degradation with less application to neural dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+Misfolded proteins are tightly associated with various neurodegenerative diseases, and removing these misfolded proteins is one of the actively pursued approaches for seeking therapeutics for these diseases. In this study, we demonstrated that molecularly produced light (molecular light) from ADLumin-5, a self-photosensitizing chemiluminescence compound, could induce photo-oxidation and photodegradation of misfolded proteins, including beta-amyloid, tau, alpha-synucleins, and TDP-43 proteins in …
 
 </details>
 
