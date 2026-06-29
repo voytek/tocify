@@ -1,187 +1,262 @@
-# Weekly ToC Digest (week of 2026-06-22)
+# Weekly ToC Digest (week of 2026-06-29)
 
-No items directly match your research focus, but further analysis prioritizes relevant intersection with neural dynamics. Prioritized based on relevance to neural dynamics, oscillations, methods, and other specified interests. The selected papers focus on methods for neural dynamics, signal processing, and electrophysiology, aligning with user interests. Prioritized based on user's emphasis on physiological time series, oscillations, and methods for neural data analysis. Papers lacking these elements were de-emphasized.
+This week's items are largely focused on clinical topics, with few matching the specific interests of neural dynamics and computational neuroscience. The highest ranked paper explores deep-brain stimulation techniques which may involve neural dynamics, albeit it is more clinically oriented. Prioritized articles with methods for neural dynamics and time series analysis. Papers reviewed primarily come from neuroscience and related fields; articles from general science or unrelated biological studies are de-prioritized.
 
-**Included:** 11 (score ≥ 0.35)  
-**Scored:** 25 total items
+**Included:** 15 (score ≥ 0.35)  
+**Scored:** 17 total items
 
 ---
 
-## [Revisiting post-stimulus theta activity: evidence for an aperiodic rather than oscillatory origin](https://www.biorxiv.org/content/10.64898/2026.06.16.732609v1?rss=1)
+## [Composing trajectories for rapid inference of navigational goals](https://www.cell.com/neuron/fulltext/S0896-6273(26)00445-9?rss=yes)
+*Neuron*  
+Score: **0.95**  
+Published: 2026-06-26T00:00:00+00:00
+Tags: methods, computational
+
+This paper involves developing a learning algorithm for structured exploration and learning in animals, touching on computational neuroscience.
+
+<details>
+<summary>RSS summary</summary>
+
+AbdelRahman et al. develop a learning algorithm that captures structured exploration and rapid navigational learning in animals. The algorithm combines path integration with vector computations to flexibly compose navigational trajectories that explain the speed and structure of learning as mice infer hidden targets, avoid obstacles, and adapt to context switches.
+
+</details>
+
+---
+
+## [The Importance of Synchrony in the Neural Control of Movement](https://www.biorxiv.org/content/10.64898/2026.06.26.734805v1?rss=1)
 *bioRxiv*  
 Score: **0.90**  
-Published: 2026-06-22T00:00:00+00:00
-Tags: aperiodic, EEG, oscillations
+Published: 2026-06-28T00:00:00+00:00
+Tags: methods, neural dynamics, synchrony
 
-Focus on aperiodic activity, important for understanding underlying neural dynamics rather than noise.
+The study uses temporal precision in neural coding relevant to motor control, which is aligned with interests in neural dynamics and electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-The aperiodic, 1/f-like component of electrophysiological activity is increasingly recognized as a meaningful feature of neural function, rather than background noise. In parallel, many EEG studies report transient changes in oscillatory power following stimulus onset and interpret these effects as signatures of attention, salience, or cognitive control. However, such conclusions usually rely on baseline normalization procedures that assume aperiodic activity remains stable from pre- to post-sti…
+Throughout the mammalian cortex, populations of neurons must work together to enact behaviors. While population recordings in motor cortex have revealed many aspects of when neurons fire during behaviors, limitations in causal experiments have made it difficult to identify which features of neural activity directly drive movements and which do not. Here, we explicitly test the principles of neural coding using high temporal precision multiphoton holographic optogenetics in the motor cortex. We s…
 
 </details>
 
 ---
 
-## [How stimulation waveform shape affects collective oscillations in the brain networks](https://www.biorxiv.org/content/10.64898/2026.06.16.732561v1?rss=1)
+## [Higher-order thalamic bursts are drivers of attention control](https://www.cell.com/neuron/fulltext/S0896-6273(26)00417-4?rss=yes)
+*Neuron*  
+Score: **0.90**  
+Published: 2026-06-26T00:00:00+00:00
+Tags: timescales, oscillations
+
+Investigating thalamic bursts and their role in cognition reflects neuronal timescale dynamics, relevant to neural time series and oscillations.
+
+<details>
+<summary>RSS summary</summary>
+
+Higher-order thalamic nuclei are critical in cognition and generate spike sequences termed bursts. The role of bursts in cognition is unknown. We found that pulvinar bursts are attention-modulated, predict behavior, and influence the cortex. Pulvinar electrical microstimulation triggered bursts that enhanced target detection, revealing mechanistic thalamic control over the cortex and behavior.
+
+</details>
+
+---
+
+## [Precision-Controlled Active Inference Accounts for Sensory Reweighting in Quiet Standing](https://www.biorxiv.org/content/10.64898/2026.06.23.733972v1?rss=1)
 *bioRxiv*  
-Score: **0.90**  
-Published: 2026-06-22T00:00:00+00:00
-Tags: oscillations, waveform, modeling
-
-Explores how waveform shapes influence brain oscillations, relevant for neural dynamics and modeling.
-
-<details>
-<summary>RSS summary</summary>
-
-Brain oscillations emerge from nonlinear interactions across anatomically connected neural populations, alternating between transiently coordinated and desynchronised states. Transcranial alternating current stimulation (tACS) can modulate these dynamics, but most work has focused on frequency and amplitude, leaving waveform shape comparatively unexplored. Here we used a whole-brain model of delay-coupled Stuart--Landau oscillators constrained by empirical human structural connectivity to determ…
-
-</details>
-
----
-
-## [Brain-wide topographic coordination of rotating waves](https://www.science.org/doi/abs/10.1126/science.adx1369?af=R)
-*Science*  
-Score: **0.90**  
-Published: 2026-06-18T07:00:00+00:00
-Tags: oscillations, neural_dynamics
-
-Covers oscillations and aperiodic dynamics, focusing on rotating waves which are relevant to neural dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Science, Volume 392, Issue 6804, June 2026. <br />
-
-</details>
-
----
-
-## [Potential mechanisms and functional significance of aperiodic neural activity](https://www.nature.com/articles/s41562-026-02503-7)
-*Nature Human Behav*  
 Score: **0.85**  
-Published: 2026-06-22T00:00:00+00:00
-Tags: aperiodic, neural dynamics
+Published: 2026-06-29T00:00:00+00:00
+Tags: active inference, sensory processing, dynamics
 
-Aperiodic activity's significance for brain function relates to user interest in neural dynamics.
+Focused on sensory processing dynamics, this work aligns with interests in physiological signal processing and computational modeling.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Human Behaviour, Published online: 22 June 2026; <a href="https://www.nature.com/articles/s41562-026-02503-7">doi:10.1038/s41562-026-02503-7</a></p>In this Review, Preston, Smith and Voytek examine aperiodic neural activity in the brain and how measuring aperiodic activity can shed light on brain function and disease.
+Human quiet standing depends on the context-dependent reweighting of vestibular, proprioceptive, and visual information. Posturography has empirically characterized this phenomenon, but a compact generative-control account of how changes in sensory reliability propagate from state estimation to postural action remains incomplete. Here, we test a minimal continuous-time active inference model of quiet standing. In this model, sensory reweighting is implemented as channel-specific precision contro…
 
 </details>
 
 ---
 
-## [Rethinking EEG biomarkers of brain disorders: a transdiagnostic dimensional view](https://www.nature.com/articles/s41398-026-04187-z)
-*Trans Psychiatry*  
+## [Interpretable abstractions of artificial neural networks predict behavior and neural activity during human information gathering](https://www.nature.com/articles/s41593-026-02342-9)
+*Nature Neuroscience*  
 Score: **0.85**  
-Published: 2026-06-20T00:00:00+00:00
-Tags: EEG, methods, biomarkers
+Published: 2026-06-26T00:00:00+00:00
+Tags: computational, neural activity
 
-This study explores EEG biomarkers using a transdiagnostic approach, relevant for physiological signal processing.
+The application of deep learning to neural activity prediction deals with computational neuroscience aspects.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Translational Psychiatry, Published online: 20 June 2026; <a href="https://www.nature.com/articles/s41398-026-04187-z">doi:10.1038/s41398-026-04187-z</a></p>Rethinking EEG biomarkers of brain disorders: a transdiagnostic dimensional view
+<p>Nature Neuroscience, Published online: 26 June 2026; <a href="https://www.nature.com/articles/s41593-026-02342-9">doi:10.1038/s41593-026-02342-9</a></p>D’Ambrogio et al. combine deep learning and symbolic regression to report an interpretable equation of how humans value information. The equation predicts choices and neural activity in anterior insula, cingulate cortex and midbrain nuclei.
 
 </details>
 
 ---
 
-## [Decoding Chronic Pain States from Distributed Intracranial Recordings](https://www.biorxiv.org/content/10.64898/2026.06.16.732555v1?rss=1)
+## [Peri-head distance coding in the mouse brainstem](https://www.cell.com/neuron/fulltext/S0896-6273(26)00419-8?rss=yes)
+*Neuron*  
+Score: **0.85**  
+Published: 2026-06-25T00:00:00+00:00
+Tags: brainstem, neural processing, methods
+
+This study involves electrophysiological methods and neural processing, transforming sensory signals into spatial representations, directly linking to physiological signal processing interests.
+
+<details>
+<summary>RSS summary</summary>
+
+Xiao & Severson et al. show that the mouse whisker brainstem transforms whisker-centered touch signals into a head-centered map of nearby space. Long-range inhibition within the brainstem converts peripheral inputs into a stable peri-head distance representation, revealing that early brainstem circuits actively compute where objects are relative to the head.
+
+</details>
+
+---
+
+## [Rhythmic replay of short-term memory neural patterns revealed by time-resolved error prediction](https://www.biorxiv.org/content/10.64898/2026.06.22.733876v1?rss=1)
+*bioRxiv*  
+Score: **0.80**  
+Published: 2026-06-28T00:00:00+00:00
+Tags: theta oscillations, memory, EEG
+
+Involves theta oscillations and time series analysis, relevant to neural oscillations and dynamics studies.
+
+<details>
+<summary>RSS summary</summary>
+
+Theta oscillations are thought to provide a temporal scaffold for short-term memory (STM), organizing item encoding and maintenance into successive phases to reduce representational conflict. Whether this rhythm also determines encoding fidelity, that is, how precisely items are encoded in human cortical activity, remains unclear. Here, we show that STM encoding fidelity fluctuates rhythmically at theta frequency. EEG was recorded while participants encoded arrays of colored, oriented objects un…
+
+</details>
+
+---
+
+## [Striatal control of amygdalar acetylcholine release during salience-associated processing](https://www.nature.com/articles/s41593-026-02353-6)
+*Nature Neuroscience*  
+Score: **0.80**  
+Published: 2026-06-26T00:00:00+00:00
+Tags: neural dynamics, signal processing
+
+This paper investigates neural circuits controlling acetylcholine, linking neural dynamics and salience, relevant to physiology and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 26 June 2026; <a href="https://www.nature.com/articles/s41593-026-02353-6">doi:10.1038/s41593-026-02353-6</a></p>Amygdalar acetylcholine signals dynamically represent salience. Chen et al. show that striatal D1 and D2 neurons oppositely control these signals via basal forebrain cholinergic pathways to shape salience-associated learning.
+
+</details>
+
+---
+
+## [Brain Control of a Computer Cursor for Online Target Selection - A Non-Invasive BCI for Continuous Movement Decoding](https://www.biorxiv.org/content/10.64898/2026.06.23.733968v1?rss=1)
 *bioRxiv*  
 Score: **0.75**  
-Published: 2026-06-22T00:00:00+00:00
-Tags: intracranial, neural data, pain
+Published: 2026-06-29T00:00:00+00:00
+Tags: EEG, BCI, signal processing
 
-Uses intracranial recordings to decode pain states, integrating neural data relevant to dynamics.
+Features EEG applications in brain-computer interfaces, relevant to physiological signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Chronic pain engages distributed cortical and subcortical circuits, and large-scale intracranial recordings in humans offer a valuable opportunity to characterize its neural signatures. Here, we recorded multi-day stereoelectroencephalography (sEEG) from six participants with refractory chronic neuropathic pain, each implanted with sEEG electrodes spanning dozens of cortical and subcortical structures. Using simultaneous chronic pain ratings, we decoded spontaneous high versus low pain states wi…
+Non-invasive brain-computer interfaces (BCIs) have substantially advanced in the field of continuous cursor control over the past decade. Yet, current methods lack key control aspects such as initiation and termination of cursor movements as well as evaluation in real-world applications. In this study, we introduce a framework for continuous, electroencephalography based cursor control that supports both active movement and no-movement states, thereby allowing for inactive periods of the user wh…
 
 </details>
 
 ---
 
-## [Evolutionarily conserved and divergent mechanisms of dual Ca2+ sensors in synaptic vesicle exocytosis](https://www.pnas.org/doi/abs/10.1073/pnas.2532992123?af=R)
-*PNAS*  
-Score: **0.70**  
-Published: 2026-06-18T07:00:00+00:00
-Tags: neural_transmission, Ca2+, timescales
-
-Relates to neuronal timescales in synaptic transmission involving Ca2+ sensors, aligning with interest in neural data.
-
-<details>
-<summary>RSS summary</summary>
-
-Proceedings of the National Academy of Sciences, Volume 123, Issue 25, June 2026. <br />SignificanceFast and slow neurotransmitter release is triggered by distinct synaptotagmins that serve as Ca2+sensors; however, the underlying mechanisms for their regulation remain incompletely understood. Using the genetically tractable nematode...
-
-</details>
-
----
-
-## [Lamprey 3D single-cell transcriptomics reveals ancestral and specialized features of the vertebrate brain](https://www.science.org/doi/abs/10.1126/science.aea2535?af=R)
-*Science*  
-Score: **0.60**  
-Published: 2026-06-18T07:00:00+00:00
-Tags: neurogenetics, cross_species
-
-Explores cross-species electrophysiology, contributing insights into vertebrate brain structures.
-
-<details>
-<summary>RSS summary</summary>
-
-Science, Volume 392, Issue 6804, June 2026. <br />
-
-</details>
-
----
-
-## [Objective quality assessment for precision functional MRI data](https://www.cell.com/neuron/fulltext/S0896-6273(26)00412-5?rss=yes)
-*Neuron*  
-Score: **0.50**  
-Published: 2026-06-22T00:00:00+00:00
-Tags: fMRI, quality assessment
-
-Focuses on fMRI quality assessment, less relevancy due to lack of neural dynamics content.
-
----
-
-## [Daily briefing: The brain builds a sentence neuron by neuron](https://www.nature.com/articles/d41586-026-01967-x)
-*Nature*  
-Score: **0.50**  
-Published: 2026-06-18T00:00:00+00:00
-Tags: EEG, neural_activity
-
-Tracks electrical activity of brain cells in real time, relevant to methods for neural signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 18 June 2026; <a href="https://www.nature.com/articles/d41586-026-01967-x">doi:10.1038/d41586-026-01967-x</a></p>Researchers have tracked the electrical activity of individual brain cells during conversation in real time. Plus, the history of GPS and a cross-species transplant that could reveal clues about the origin of animals.
-
-</details>
-
----
-
-## [Targeted Photodegradation of Misfolded Proteins via Self-photosensitizing with Molecularly Produced Light](https://www.biorxiv.org/content/10.64898/2026.06.16.732486v1?rss=1)
+## [Time space signatures of hybrid search resolution using EEG and eye movements concurrent recordings](https://www.biorxiv.org/content/10.64898/2026.06.22.733836v1?rss=1)
 *bioRxiv*  
-Score: **0.43**  
-Published: 2026-06-22T00:00:00+00:00
-Tags: neurodegeneration, protein, photodegradation
+Score: **0.70**  
+Published: 2026-06-28T00:00:00+00:00
+Tags: EEG, time series, signal processing
 
-While relevant to neurodegeneration, focuses on protein degradation with less application to neural dynamics.
+Combines EEG and eye movement data, fitting methods for neural and physiological time series.
 
 <details>
 <summary>RSS summary</summary>
 
-Misfolded proteins are tightly associated with various neurodegenerative diseases, and removing these misfolded proteins is one of the actively pursued approaches for seeking therapeutics for these diseases. In this study, we demonstrated that molecularly produced light (molecular light) from ADLumin-5, a self-photosensitizing chemiluminescence compound, could induce photo-oxidation and photodegradation of misfolded proteins, including beta-amyloid, tau, alpha-synucleins, and TDP-43 proteins in …
+Understanding how the brain supports visual search in naturalistic environments, where attention and memory must work together to find targets among distractors, requires analysing neural signals where responses overlap in time and multiple environmental variables simultaneously interact. Conventional event-related methods cannot disentangle these overlapping signals, creating a fundamental bottleneck for studying cognition in ecologically valid settings. Here, we seek to isolate activation patt…
+
+</details>
+
+---
+
+## [Interpretable compositional computation with recurrent neural networks](https://www.biorxiv.org/content/10.64898/2026.06.23.733979v1?rss=1)
+*bioRxiv*  
+Score: **0.65**  
+Published: 2026-06-29T00:00:00+00:00
+Tags: RNN, computational neuroscience, neural networks
+
+Involves artificial neural networks which can be relevant to computational neuroscience.
+
+<details>
+<summary>RSS summary</summary>
+
+Flexible cognition utilizes reusable components to enable rapid adaptation of behavior to different contexts or tasks. Analysis of artificial neural networks trained on multiple tasks suggested that this compositionality is supported by dynamical structures which are shared and re-used across tasks. However, the nature of these shared components, and how they can be used in a task-dependent manner, remained unclear. Here, we develop a theory of interpretable compositional computation based on sh…
+
+</details>
+
+---
+
+## [Learning shapes neural geometry in the primate prefrontal cortex](https://www.nature.com/articles/s41593-026-02333-w)
+*Nature Neuroscience*  
+Score: **0.65**  
+Published: 2026-06-25T00:00:00+00:00
+Tags: PFC, neural geometry, learning
+
+Focuses on computational neuroscience aspects of learning and neural representation, relevant to neuronal timescales and signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 25 June 2026; <a href="https://www.nature.com/articles/s41593-026-02333-w">doi:10.1038/s41593-026-02333-w</a></p>Learning transforms prefrontal cortex activity from flexible, high-dimensional representations into compact, task-relevant and abstract codes, enabling efficient generalization of learned rules to new stimuli and contexts.
+
+</details>
+
+---
+
+## [Conditioned accumbal dopamine transients forecast individual preference for drug versus natural rewards and compulsive behavior](https://www.nature.com/articles/s41593-026-02331-y)
+*Nature Neuroscience*  
+Score: **0.60**  
+Published: 2026-06-26T00:00:00+00:00
+Tags: dopamine, computational
+
+Highlights dopamine transients in reward processing with implications for computational models, though focused more on behavior.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 26 June 2026; <a href="https://www.nature.com/articles/s41593-026-02331-y">doi:10.1038/s41593-026-02331-y</a></p>Pascoli et al. show that nucleus accumbens dopamine transients evoked by reward-predictive cues encode subjective reward value in mice, predicting individual preference for drugs over natural rewards and forecasting vulnerability to compulsive drug-seeking behavior.
+
+</details>
+
+---
+
+## [DBS: from neuromodulation to neuroremodelling](https://www.nature.com/articles/s41593-026-02347-4)
+*Nature Neuroscience*  
+Score: **0.50**  
+Published: 2026-06-25T00:00:00+00:00
+Tags: DBS, neurostimulation, neuroremodelling
+
+Involves neurostimulation and neural network modeling, but lacks direct involvement of time series or oscillations.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 25 June 2026; <a href="https://www.nature.com/articles/s41593-026-02347-4">doi:10.1038/s41593-026-02347-4</a></p>Deep-brain stimulation (DBS) treats movement and neuropsychiatric disorders through mechanisms that remain unclear. Two studies that combine longitudinal neuroimaging, stimulation experiments and tissue-level analysis show that the effects of DBS evolve in space and time, demonstrating acute effects on network activity as well as providing ins…
+
+</details>
+
+---
+
+## [Safety and efficacy of staged, bilateral magnetic resonance-guided focused ultrasound pallidothalamic tractotomy for motor complications of Parkinson's disease: a prospective, multicentre, single-arm trial](https://www.thelancet.com/journals/laneur/article/PIIS1474-4422(26)00142-0/fulltext?rss=yes)
+*Lancet Digital Health*  
+Score: **0.40**  
+Published: 2026-07-01T00:00:00+00:00
+Tags: DBS, Parkinson's, clinical
+
+Involves deep brain stimulation techniques which might intersect with neural dynamics, but primarily clinical focus may limit direct relevance.
+
+<details>
+<summary>RSS summary</summary>
+
+Unilateral MRgFUS pallidothalamic tractotomy demonstrated safety and efficacy for Parkinson's disease motor complications; however, bilateral treatment offered small motor gains while increasing persistent moderate or severe adverse events. Post-bilateral treatment complications in speech, gait, and balance are consistent with historical data for bilateral ablative procedures for movement disorders. Although unilateral MRgFUS pallidothalamic tractotomy was beneficial in our study, bilateral proc…
 
 </details>
 
