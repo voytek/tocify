@@ -1,160 +1,211 @@
-# Weekly ToC Digest (week of 2026-08-03)
+# Weekly ToC Digest (week of 2026-08-10)
 
-This week's selection focuses on physiological signal processing and neural dynamics relevant to your interests. Prioritized items include neural time series, oscillations, and electrophysiological studies in line with user's interests. Most items received a low score due to lack of relevance to neuroscience, time series, or computational methods. Prioritized based on relevance to neural time series, oscillations, and physiological signal processing.
+Evaluated papers for relevance based on interests in neural time series, oscillations, and physiological signal processing. Prioritized articles focus on neural/physiological time series, oscillations, aperiodic dynamics, and signal processing, aligning with user interests. No items directly match physiological signal processing or neural time series analysis interests. No relevant electrophysiology or computational neuroscience papers identified. Papers related to neural oscillations, electrophysiology, and computational methods scored highest. Items purely focused on psychiatry, oncology, or other unrelated fields were downweighted heavily.
 
-**Included:** 9 (score ≥ 0.35)  
-**Scored:** 12 total items
+**Included:** 12 (score ≥ 0.35)  
+**Scored:** 17 total items
 
 ---
 
-## [Macroscale dynamics of EEG microstates determine the periodic and aperiodic features of the neural power spectrum](https://www.biorxiv.org/content/10.64898/2026.07.28.741333v1?rss=1)
+## [Aperiodic neural activity links electromagnetic and hemodynamic representations of domain-general cognitive demand across the cortical hierarchy](https://www.biorxiv.org/content/10.64898/2026.08.03.742517v1?rss=1)
 *bioRxiv*  
-Score: **0.90**  
-Published: 2026-08-01T00:00:00+00:00
-Tags: EEG, aperiodic, spectral analysis
+Score: **0.95**  
+Published: 2026-08-07T00:00:00+00:00
+Tags: aperiodic, cognition, EEG, fMRI
 
-This paper focuses on EEG spectral analysis, particularly the periodic and aperiodic components, which aligns well with interests in spectral parameterization and oscillations.
+Addresses aperiodic neural activity and cognitive demand, key topics in computational neuroscience and spectral analysis.
 
 <details>
 <summary>RSS summary</summary>
 
-The global signal characteristics of scalp-recorded electroencephalography (EEG) are composed of periodic oscillatory rhythms and aperiodic broadband fluctuations that together constitute the neural power spectrum. Spectral decomposition of these features has long served as the primary window into the macroscale characteristics of human brain activity. However, prevailing interpretations of spectral features lack a unifying mechanistic framework and often conflate activity resulting from distinc…
+The human brain demonstrates remarkable flexibility and capacity for domain-general cognitive control, allowing us to perform diverse and complex tasks. Central to this ability is the multiple- demand (MD) network, a domain-general system that is robustly engaged during demanding tasks in fMRI studies. However, the electrophysiological signatures underlying these domain-general responses remain elusive. While recent research has implicated aperiodic neural activity as a promising candidate, the …
 
 </details>
 
 ---
 
-## [The Lifespan Architecture of Human EEG](https://www.biorxiv.org/content/10.64898/2026.07.28.741219v1?rss=1)
+## [Resting bilateral sensorimotor mu rhythm suppression facilitates ipsilesional M1 excitability after stroke](https://www.biorxiv.org/content/10.64898/2026.08.07.743250v1?rss=1)
 *bioRxiv*  
 Score: **0.90**  
-Published: 2026-07-31T00:00:00+00:00
-Tags: EEG, timescales, spectral
+Published: 2026-08-10T00:00:00+00:00
+Tags: EEG, M1 excitability, stroke
 
-This paper analyzes EEG recordings across lifespan focusing on spectral dynamics, relevant for neural time series and oscillations.
+This study explores EEG states reflecting M1 excitability poststroke, relevant to neural time series and physiological signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Human brain maturation and aging are highly nonlinear, yet their organization at the level of large-scale electrophysiological activity remains poorly understood. We analyzed resting-state electroencephalography (EEG) recordings from 1,763 healthy individuals aged 5-85 years to map lifespan trajectories across spectral, complexity, and morphological features. Age-sensitive features clustered into distinct nonlinear trajectories, most commonly showing rapid change during childhood and adolescence…
+Objective: Stroke-related corticospinal tract (CST) disruption causes lasting hand impairments, but many stroke survivors retain some residual CST connections. In neurotypical adults, motor cortex (M1) TMS interventions can strengthen CST transmission when coupled to EEG brain states reflecting heightened M1 excitability. Because stroke alters the relationship between these brain states and cortical excitability, we aimed to identify poststroke brain states that accurately capture ipsilesional M…
 
 </details>
 
 ---
 
-## [Dichotomy between extracellular signatures of active dendritic chemical synapses and gap junctions](https://elifesciences.org/articles/103046)
+## [Efficient and reproducible pipelines for spike sorting large-scale electrophysiology data](https://elifesciences.org/articles/110170)
 *eLife*  
+Score: **0.90**  
+Published: 2026-08-05T00:00:00+00:00
+Tags: methods, electrophysiology, data science
+
+Focus on spike sorting methods for large-scale electrophysiology enhances neural data processing.
+
+<details>
+<summary>RSS summary</summary>
+
+The scale of <i>in vivo</i> electrophysiology has expanded in recent years, with simultaneous recordings across thousands of electrodes now becoming routine. These advances have enabled a wide range of discoveries, but they also impose substantial computational demands. Spike sorting, the procedure that extracts spikes from extracellular voltage measurements, remains a major bottleneck: a dataset collected in a few hours can take days to spike sort on a single machine, and the field lacks rigoro…
+
+</details>
+
+---
+
+## [Neural multiplexing vs place coding: Multiplexing steps in when most needed](https://www.biorxiv.org/content/10.64898/2026.08.06.743261v1?rss=1)
+*bioRxiv*  
 Score: **0.85**  
-Published: 2026-07-30T00:00:00+00:00
-Tags: LFP, methods, neural dynamics
+Published: 2026-08-10T00:00:00+00:00
+Tags: multiplexing, neural coding, timescales
 
-Focuses on local field potentials (LFPs) and develops methods recording extracellular potentials, relevant to dynamic neural information flow.
+Relevant for neuronal timescales through the exploration of time division multiplexing versus place coding in signal encoding.
 
 <details>
 <summary>RSS summary</summary>
 
-Local field potentials (LFPs) are compound signals that represent the dynamic flow of information across the brain, which have been historically associated with chemical synaptic inputs. How do gap junctional inputs onto active compartments shape LFPs? We developed a methodology to record extracellular potentials associated with different patterns of gap junctional inputs onto conductance-based models. We found that synchronous inputs through chemical synapses yielded a negative deflection in pr…
+Sensory scenes contain many different stimuli. Two complementary theories about how the brain segregates signals from different stimuli concern (a) time division multiplexing, such that neurons switch between encoding each item over time; and/or (b) place coding, such that different populations of neurons encode each item. Such time division multiplexing would appear to be required when the population of neurons responsive to each stimulus overlaps, as place coding lacks the granularity to resol…
 
 </details>
 
 ---
 
-## [The aging rhythm: spatio-temporal dynamics of resting alpha oscillations in young and older brains](https://www.biorxiv.org/content/10.64898/2026.07.30.741790v1?rss=1)
+## [Adaptive modulation of theta sweeps in the brain’s navigation circuit](https://www.science.org/doi/abs/10.1126/science.aef4184?af=R)
+*Science*  
+Score: **0.85**  
+Published: 2026-08-06T07:00:00+00:00
+Tags: theta oscillations, navigation, circuitry
+
+Explores theta oscillations in neural navigation circuits, relevant for oscillatory and computational dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+Science, Volume 393, Issue 6811, August 2026. <br />
+
+</details>
+
+---
+
+## [Whole-brain modeling of dynamic causal circuits in human cognition using amortized variational inference](https://www.biorxiv.org/content/10.64898/2026.08.03.742253v1?rss=1)
 *bioRxiv*  
 Score: **0.80**  
-Published: 2026-08-03T00:00:00+00:00
-Tags: oscillations, EEG, timescales
+Published: 2026-08-09T00:00:00+00:00
+Tags: computational neuroscience, brain modeling
 
-This research on alpha oscillations' dynamics relates to oscillations and neuronal timescales, key elements of neural time series analysis.
+The study is significant for computational neuroscience, leveraging MDSI-AVI for modeling brain dynamics with fMRI data.
 
 <details>
 <summary>RSS summary</summary>
 
-Aging is associated with substantial alterations in brain oscillatory activity, particularly within the alpha band (8 -12 Hz). Yet, little is known about how aging affects the spatial propagation of alpha oscillations across cortical networks. In addition, although previous EEG studies have consistently reported age-related slowing of alpha peak frequency and changes in alpha power, the interpretation of these findings remains debated because oscillatory measures are influenced by age-related mo…
+Understanding dynamic mechanisms underlying cognition remains a major challenge in human neuroscience. Here, we develop, validate, and apply Multivariate Dynamical Systems Identification with Amortized Variational Inference (MDSI-AVI), a novel computational framework designed to address critical challenges in capturing asymmetric, context-dependent, whole-brain directed interactions while accounting for regional hemodynamic response variability in fMRI data. MDSI-AVI leverages simulation-based i…
 
 </details>
 
 ---
 
-## [Distinct Neural Signatures Underlie Finger Tapping and Walking to Auditory Rhythms](https://www.biorxiv.org/content/10.64898/2026.07.30.741770v1?rss=1)
-*bioRxiv*  
+## [Cerebellar rhythms: mechanisms, functions and translational opportunities](https://www.nature.com/articles/s41583-026-01072-y)
+*Nature Rev Neurosci*  
 Score: **0.80**  
-Published: 2026-07-31T00:00:00+00:00
-Tags: EEG, oscillations, synchronization
+Published: 2026-08-06T00:00:00+00:00
+Tags: oscillations, neural dynamics, cerebellum
 
-Focuses on neural oscillations and synchronization processes using mobile EEG, relevant for aperiodic dynamics and oscillations.
+Deals with cerebellar oscillations and their neural dynamics, closely aligning with interests in neural oscillations.
 
 <details>
 <summary>RSS summary</summary>
 
-Neural oscillations synchronize with rhythmic stimuli, shaping perception and action. Auditory-motor synchronization (AMS) enhances this process but most evidence comes from finger tapping, an attentionally demanding voluntary behaviour. Whether motor-driven modulation of neural synchronization generalizes to more automatic movements like walking remains unclear. In this study, we used mobile EEG to compare neural synchronization to auditory rhythms during tapping and walking in 40 older male an…
+<p>Nature Reviews Neuroscience, Published online: 06 August 2026; <a href="https://www.nature.com/articles/s41583-026-01072-y">doi:10.1038/s41583-026-01072-y</a></p>Neural oscillations across a range of frequencies contribute to the cerebellum’s roles in perception, prediction and action. Koch and colleagues describe the microcircuit dynamics through which cerebellar rhythms arise, their influence on cerebellar computations and the potential for precision neuromodulation of cerebellar oscillatio…
 
 </details>
 
 ---
 
-## [Transcriptome-Inspired Spiking Simulations Uncover Human-Specific Prefrontal Dynamics and Provide a Mechanistic Platform for Species-Appropriate Disease Modeling.](https://www.biorxiv.org/content/10.64898/2026.08.02.741879v1?rss=1)
-*bioRxiv*  
+## [A Multimodal fNIRS–EEG Dataset for Unilateral Limb Motor Imagery](https://www.nature.com/articles/s41597-026-07807-x)
+*Scientific Data*  
 Score: **0.75**  
-Published: 2026-08-03T00:00:00+00:00
-Tags: computational modeling, electrophysiology
+Published: 2026-08-10T00:00:00+00:00
+Tags: EEG, fNIRS, motor imagery
 
-Offers computational modeling of neuron dynamics relevant to cross-species electrophysiology and computational neuroscience.
+This dataset integrates EEG with fNIRS for motor imagery, aligning with interests in physiological signal processing and EEG.
 
 <details>
 <summary>RSS summary</summary>
 
-Whole-brain transcriptomic atlases are now widely available, yet computational neural models are almost exclusively parameterized from rodent data and used to infer human brain function, an extrapolation whose cost remains unquantified. To address this, we constructed a biophysically detailed, conductance-based Hodgkin-Huxley spiking microcircuit of a five-population prefrontal network, where every ion-channel, receptor, and gap-junction conductance was scaled by cell-type-specific gene expressi…
+<p>Scientific Data, Published online: 10 August 2026; <a href="https://www.nature.com/articles/s41597-026-07807-x">doi:10.1038/s41597-026-07807-x</a></p>A Multimodal fNIRS–EEG Dataset for Unilateral Limb Motor Imagery
 
 </details>
 
 ---
 
-## [Millisecond-scale, single-neuron credit assignment in a songbird](https://www.biorxiv.org/content/10.64898/2026.07.31.740148v1?rss=1)
-*bioRxiv*  
-Score: **0.70**  
-Published: 2026-08-01T00:00:00+00:00
-Tags: timescales, electrophysiology
+## [Hippocampal CA3 connectomics reveals a gradient of mossy fiber inputs and selective feedforward inhibition onto pyramidal cells](https://www.nature.com/articles/s41593-026-02388-9)
+*Nature Neuroscience*  
+Score: **0.60**  
+Published: 2026-08-05T00:00:00+00:00
+Tags: connectomics, timescales, inhibition
 
-Involves millisecond neural timing and electrophysiology in songbirds, key for understanding neuronal timescales.
+Involves connectomic reconstruction and neuronal timescales, topics of interest related to neural networking.
 
 <details>
 <summary>RSS summary</summary>
 
-Learning an adaptive behavior requires identifying which actions, in which contexts, lead to particular outcomes. This problem of credit assignment is fundamental to both biological and artificial learners. Songbird vocal learning presents a particularly demanding credit assignment problem: singing is controlled by millisecond-precise activity of thousands of motor neurons, but song quality is encoded by a diffuse, delayed dopamine signal with more than an order of magnitude less temporal precis…
+<p>Nature Neuroscience, Published online: 05 August 2026; <a href="https://www.nature.com/articles/s41593-026-02388-9">doi:10.1038/s41593-026-02388-9</a></p>The authors present a dense connectomic reconstruction of a 0.1 mm3 hippocampal CA3 volume and reveal spatial gradients, high convergence and cell-type-selective feedforward inhibition of inputs to pyramidal cells.
 
 </details>
 
 ---
 
-## [Endogenous auditory and motor brain rhythms predict individual speech tracking](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003924)
-*PLOS Biol*  
-Score: **0.70**  
-Published: 2026-07-31T14:00:00+00:00
-Tags: oscillations, brain rhythms
+## [Experience-dependent modulation of extracellular matrix integrity supports perceptual skill learning and memory](https://www.pnas.org/doi/abs/10.1073/pnas.2601801123?af=R)
+*PNAS*  
+Score: **0.55**  
+Published: 2026-08-07T07:00:00+00:00
+Tags: neural modulation, learning, memory
 
-Discusses brain rhythms for speech comprehension linking auditory processing with neural oscillations.
+Focuses on the neural basis of learning and memory, touching on aspects of physiological modulation.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Christina Lubinus, Anne Keitel, Jonas Obleser, David Poeppel, Johanna M. Rimmele</p> Slow, endogenous brain rhythms in the auditory cortex are hypothesized to track acoustic amplitude modulations during speech comprehension. Temporal predictions from the motor system are thought to enhance this tracking. However, direct evidence for the involvement of endogenous auditory and motor brain rhythms is lacking. Combining magnetoencephalographic recordings with behavioral data, we here show that…
+Proceedings of the National Academy of Sciences, Volume 123, Issue 32, August 2026. <br />SignificanceLearning sharpens our sensory abilities, allowing us to see fine details, distinguish similar sounds, and detect subtle differences in taste and smell, but typically requires extensive practice. To improve learning rates and outcomes, we need ...
 
 </details>
 
 ---
 
-## [Neural correlates of perceptual consciousness from within: A narrative review of human intracranial research](https://elifesciences.org/articles/109604)
-*eLife*  
-Score: **0.70**  
-Published: 2026-07-30T00:00:00+00:00
-Tags: methods, neurophysiology
+## [Protecting episodic memory after sleep loss: Similar benefits of exercise and naps via distinct neural contributions](https://www.pnas.org/doi/abs/10.1073/pnas.2528246123?af=R)
+*PNAS*  
+Score: **0.50**  
+Published: 2026-08-07T07:00:00+00:00
+Tags: memory, sleep, neural contributions
 
-The study uses intracranial research methods offering better spatial/temporal resolution relevant to neural processing.
+Related to neural contributions to cognitive processes after sleep loss, though less direct than primary interests.
 
 <details>
 <summary>RSS summary</summary>
 
-Despite many years of research, the quest to identify neural correlates of perceptual consciousness (NCC) remains unresolved. One major obstacle lies in methodological limitations: most studies rely on non-invasive neural measures with limited spatial or temporal resolution, making it difficult to disentangle proper NCCs from concurrent cognitive processes. Additionally, the relatively low sensitivity of non-invasive neural measures limits the interpretation of null findings in studies targeting…
+Proceedings of the National Academy of Sciences, Volume 123, Issue 32, August 2026. <br />SignificanceSleep is essential for learning and remembering but one-third of the population worldwide sleeps insufficiently. Sleep loss is a public health problem that costs nations billions of dollars annually. Following sleep hygiene strategies may not ...
+
+</details>
+
+---
+
+## [Striatal endocannabinoids drive one-shot learning](https://www.nature.com/articles/s41593-026-02392-z)
+*Nature Neuroscience*  
+Score: **0.45**  
+Published: 2026-08-07T00:00:00+00:00
+Tags: endocannabinoids, learning, neural plasticity
+
+Covers neural plasticity and learning mechanisms, relevant though not directly targeting electrophysiological aspects.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 07 August 2026; <a href="https://www.nature.com/articles/s41593-026-02392-z">doi:10.1038/s41593-026-02392-z</a></p>Endocannabinoid-dependent corticostriatal plasticity underlies avoidance learning in mice after a single experience. Disrupting this process impairs learning, revealing a nonclassical synaptic basis supporting one-shot learning.
 
 </details>
 
