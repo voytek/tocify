@@ -1,160 +1,163 @@
-# Weekly ToC Digest (week of 2026-09-28)
+# Weekly ToC Digest (week of 2026-10-05)
 
-No articles directly matched primary interests. The closest articles explored EEG-related topics or signal processing methods but weren't focused on neural time series or physiological signals. Heavily weighted down articles in microbiology, cancer, and psychiatry without relevant aspects. Prioritized based on user interests in neural/physiological dynamics and computational neuroscience methods. This week's papers did not align closely with the user's specified interests in neural dynamics and computational analysis. Many items were unrelated to desired fields or lacked the necessary keywords. Most articles were not relevant due to primary focus on clinical, cancer, or unrelated technologies. One article on neural feedback was selected due to its relevance to neural time series methods.
+The selected paper is relevant due to its focus on physiological signal processing and computational methods, aligning closely with the user's research interests. Selected items emphasize electrophysiology, neural signal processing, and computational modeling related to neuroscience. No relevant papers this week related to neural or physiological time series, oscillations, or electrophysiological methods. Papers were filtered based on the user's interest in neural/physiological time series, oscillations, and computational methods, with a focus on electrophysiology and physiological signal processing.
 
-**Included:** 9 (score ≥ 0.35)  
+**Included:** 10 (score ≥ 0.35)  
 **Scored:** 10 total items
 
 ---
 
-## [The Dry Truth: Hair-Wetting Improves Dry Electrode EEG Signal Quality](https://www.biorxiv.org/content/10.64898/2026.09.21.753100v1?rss=1)
+## [Inhibitory budget matching constrains homeostatic plasticity in competitive spiking networks](https://www.biorxiv.org/content/10.64898/2026.09.27.754763v1?rss=1)
 *bioRxiv*  
 Score: **0.90**  
-Published: 2026-09-27T00:00:00+00:00
+Published: 2026-10-02T00:00:00+00:00
+Tags: synaptic plasticity, neural dynamics, methods
+
+This paper discusses synaptic plasticity in competitive spiking networks, relevant to computational methods and neural dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+Competitive spiking networks can form sensory representations through local synaptic plasticity and lateral inhibition. A canonical example is the Diehl-Cook architecture, in which Poisson-encoded sensory inputs drive excitatory neurons through spike-timing-dependent plasticity (STDP), while a separate inhibitory population imposes competition between excitatory units. In most implementations this competitive circuit is fixed, although inhibitory synapses are plastic in cortical circuits and con…
+
+</details>
+
+---
+
+## [Person-specific intrinsic-timescale topographies persist from rest into sentence processing](https://www.biorxiv.org/content/10.64898/2026.09.28.755139v1?rss=1)
+*bioRxiv*  
+Score: **0.90**  
+Published: 2026-10-01T00:00:00+00:00
+Tags: timescales, neural dynamics, electrophysiology
+
+The study links neural temporal organization with language processing, relevant to interests in neuronal timescales and neural dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+Language processing does not occur in a vacuum. Language comprehension and production have its own temporal organization, and it unfolds against ongoing neural. We examined whether the base organization persists from rest into sentence processing, and we further examined how it relates to evoked responses and semantic decisions. Sentences crossed linguistic argument versus adjunct completions with semantic plausibility. Anomalies elicited a centroparietal late positivity from 600 to 900 ms (+0.6…
+
+</details>
+
+---
+
+## [Translating functional brain activity between humans and monkeys](https://www.biorxiv.org/content/10.64898/2026.10.01.755966v1?rss=1)
+*bioRxiv*  
+Score: **0.85**  
+Published: 2026-10-02T00:00:00+00:00
+Tags: cross-species electrophysiology, fMRI, computational modeling
+
+Focuses on cross-species fMRI and electrophysiology using computational modeling, aligning with neural signal processing interests.
+
+<details>
+<summary>RSS summary</summary>
+
+Comparing brain responses across species is essential for identifying models of human cognition and testing theories of brain evolution, but differences in brain size, measurement techniques, and signal dynamics make it challenging. Here we collected dense fMRI data in macaques and humans using the same movies, static-image sequences, and tasks, and developed a multivariate analysis method that aligns neural representations temporally and spatially. The resulting data-driven framework provides a…
+
+</details>
+
+---
+
+## [Remembering touch: Somatosensory cortex supports long-term memory for dynamic vibrotactile patterns.](https://www.biorxiv.org/content/10.64898/2026.09.27.754826v1?rss=1)
+*bioRxiv*  
+Score: **0.80**  
+Published: 2026-10-02T00:00:00+00:00
+Tags: somatosensory, memory, physiological signal processing
+
+Explores tactile memory via neural substrates, relevant to physiological signal processing and neural timescales.
+
+<details>
+<summary>RSS summary</summary>
+
+The neural substrates of tactile long-term memory (LTM) in humans remain poorly understood, as relatively few neuroimaging studies have addressed this question. Here, we asked whether retrieval of tactile stimulation engages modality-specific representations in the primary and secondary somatosensory cortices (S1 and S2), alongside domain-general retrieval networks. Participants learned 16 tactile trajectories, each presented for 1.2 s on the left thumb through sequential activation of 10 vibrat…
+
+</details>
+
+---
+
+## [How Much Does Electrode Density Matter? A Multilevel Evaluation from EEG Signals to Cortical Networks](https://www.biorxiv.org/content/10.64898/2026.09.26.754643v1?rss=1)
+*bioRxiv*  
+Score: **0.80**  
+Published: 2026-10-01T00:00:00+00:00
 Tags: EEG, methods, signal processing
 
-Focuses on improving EEG methodology, which aligns with interests in methods for physiological signal processing.
+The paper evaluates EEG electrode density effects on signal analysis, relevant for methods in electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-With the rapid advancement of clinical neuroscience and Brain-Computer Interfaces (BCIs), there is an increasing demand for convenient, user-friendly EEG recording methods suitable for diverse environments, including mobile and home-based settings. Traditional gel-based EEG systems, while reliable, are inconvenient and time-consuming, whereas dry electrode systems tend to suffer from elevated noise levels. In this study, we investigated a novel methodological manipulation aimed at enhancing dry …
+Background: High-density electroencephalography (EEG) improves spatial sampling but entails greater acquisition cost, preparation time, participant burden, and computational demand. However, the extent to which electrode reduction affects successive levels of EEG analysis from global signal properties to cortical network inference remains insufficiently understood. Methods: We systematically subsampled two independent resting-state EEG datasets comprising 120 children recorded with 128 channels …
 
 </details>
 
 ---
 
-## [Cell type specific astrocytic feedback regulates excitation inhibition balance and cortical network dynamics](https://www.biorxiv.org/content/10.64898/2026.09.26.754623v1?rss=1)
+## [Modeling the Neurocircuitry Involved in Binge Drinking](https://www.biorxiv.org/content/10.64898/2026.09.28.754793v1?rss=1)
 *bioRxiv*  
-Score: **0.80**  
-Published: 2026-09-27T00:00:00+00:00
-Tags: network dynamics, neuronal modeling
+Score: **0.78**  
+Published: 2026-10-02T00:00:00+00:00
+Tags: computational modeling, neural circuitry, methods
 
-Investigates astrocytic feedback in cortical network dynamics using computational models, relevant to neural dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Astrocytes actively regulate synaptic transmission and neuronal excitability, yet their role in orchestrating macroscopic cortical network regimes and slow-wave oscillations remains an active area of reasearch. This study investigates how bidirectional neuron astrocyte interactions shape emergent population dynamics using a computational network model of excitatory and inhibitory neurons coupled to an astrocyte. The results identify astrocytic feedback topology, rather than astrocytic coupling s…
-
-</details>
+This study develops a computational model for neural circuitry, relevant to modeling and data science in neural systems.
 
 ---
 
-## [Real-time closed-loop feedback system for mouse mesoscale cortical signal and movement control](https://elifesciences.org/articles/105070)
-*eLife*  
-Score: **0.80**  
-Published: 2026-09-24T00:00:00+00:00
-Tags: methods, neurofeedback, signal processing
-
-The article discusses an open-source closed-loop neurofeedback system for controlling cortical signals, aligning with interests in physiological signal processing and methods for neural time series.
-
-<details>
-<summary>RSS summary</summary>
-
-Increasingly, experiments designed to provide practical perturbations to circuits or behavior are required for hypothesis testing in various disciplines ranging from motor learning to recovery after injury. We present the implementation and efficacy of an open-source closed-loop neurofeedback (CLNF) and closed-loop movement feedback (CLMF) system. In CLNF, we measure mm-scale cortical mesoscale activity with GCaMP6s and provide graded auditory feedback (within ~63 ms) based on changes in dorsal-…
-
-</details>
-
----
-
-## [Analysis of the influence of gradual changes in matrix sentence similarity on neural envelope tracking](https://www.biorxiv.org/content/10.64898/2026.09.21.752993v1?rss=1)
+## [Traveling brain waves support flexible storage of human working memory](https://www.biorxiv.org/content/10.64898/2026.10.01.755588v1?rss=1)
 *bioRxiv*  
-Score: **0.70**  
-Published: 2026-09-27T00:00:00+00:00
-Tags: EEG, MEG, neural tracking
+Score: **0.75**  
+Published: 2026-10-02T00:00:00+00:00
+Tags: oscillations, working memory, brain waves
 
-Combines MEG and EEG to study neural tracking, aligning with cross-modal electrophysiology interests.
+Discussion of brain waves and working memory aligns with interests in oscillations and neural signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Neural tracking of speech is a well-established phenomenon in neuroscience. However, for speech signals with a fixed structure, significant correlations between speech envelopes and neurophysiological representations occur even for unheard sentences. We exploit a structured speech-in-noise matrix hearing test (Oldenburger Sentence Test, OLSA) to systematically quantify the relationship between acoustic sentence similarity and neural tracking. Simultaneous magnetoencephalography (MEG) and 76-chan…
+Human working memory enables us to temporarily store and flexibly utilize information. It is thought that there are two distinct neural mechanisms by which information is retained in working memory: persistent firing of working memory-relevant neurons, or short-term synaptic plasticity in the absence of ongoing neuronal firing. However, both these mechanisms can lead to strong neural interference when working memory contents are updated with novel information. As an alternative, here we propose …
 
 </details>
 
 ---
 
-## [Opening the black box toward a modular approach to spike sorting](https://elifesciences.org/articles/110588)
+## [Cortical–hippocampal communication undergoes rebalancing after new learning](https://elifesciences.org/articles/107370)
 *eLife*  
 Score: **0.70**  
-Published: 2026-09-25T00:00:00+00:00
-Tags: methods, electrophysiology
+Published: 2026-10-01T00:00:00+00:00
+Tags: oscillations, neural dynamics, memory
 
-This article is relevant due to its focus on improving spike sorting in electrophysiology, a key method relevant to neural time series analysis.
-
-<details>
-<summary>RSS summary</summary>
-
-Spike sorting is an algorithmic process that extracts the activity of individual neurons from extracellular electrophysiology recordings. With the ballooning use of high-density probes, such as Neuropixels, this essential processing step is increasingly becoming time-consuming and computationally expensive. Although many software tools have been proposed to address spike sorting, they are usually constructed and benchmarked as monolithic ‘black boxes’, making it difficult to factor out the effec…
-
-</details>
+Discussion of sharp-wave ripples in memory consolidation connects to interests in oscillations and waveform shapes.
 
 ---
 
-## [Seizure control via astrocyte targeted optogenetic extracellular potassium modulation: computational analysis of K+ vs non-selective cation-conducting opsins](https://www.biorxiv.org/content/10.64898/2026.09.24.754075v1?rss=1)
-*bioRxiv*  
+## [Brain signatures of body mass index predict cardiometabolic and respiratory disease status](https://www.nature.com/articles/s41746-026-03227-8)
+*npj Digital Med*  
 Score: **0.60**  
-Published: 2026-09-28T00:00:00+00:00
-Tags: optogenetics, seizure, computational
+Published: 2026-10-03T00:00:00+00:00
+Tags: physiological, signal, processing
 
-Focuses on seizure control using optogenetics and computational modeling, relevant to neural dynamics.
+This paper uses brain signals to predict disease status, incorporating neural data analysis relevant to physiological signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-Aims: Seizure generation has been strongly linked to the accumulation of extracellular potassium. As astrocytes play a key role in potassium homeostasis, astrocyte targeted optogenetic modulation of extracellular potassium has been proposed as a novel strategy for seizure control. The effectiveness of such modulation is expected to depend strongly on the ion selectivity of the employed opsin. This study aims to mechanistically compare potassium-selective (WiChR) and cation-conducting (ChR2-like,…
+<p>npj Digital Medicine, Published online: 03 October 2026; <a href="https://www.nature.com/articles/s41746-026-03227-8">doi:10.1038/s41746-026-03227-8</a></p>Brain signatures of body mass index&#xa0;predict cardiometabolic and respiratory disease status
 
 </details>
 
 ---
 
-## [Seizures and tauopathy following neurotrauma are mediated by prion protein and metabotropic glutamate receptor 5](https://www.biorxiv.org/content/10.64898/2026.09.21.753012v1?rss=1)
-*bioRxiv*  
-Score: **0.50**  
-Published: 2026-09-27T00:00:00+00:00
-Tags: neurotrauma, tauopathy
-
-Related to neural pathologies post-injury, but lacks direct focus on electrophysiology methodologies or dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Traumatic brain injury (TBI) is one of the world's leading causes of death and disability and a major risk factor for dementias. The primary dementia associated with TBI is chronic traumatic encephalopathy (CTE), a neurodegenerative disease classified as a tauopathy, in which toxic tau molecules lead to disease pathologies and degeneration. The processes that lead to tauopathy and subsequent dementia after TBI remain unclear. Here, we built upon the finding that seizures after TBI may be a mecha…
-
-</details>
-
----
-
-## [Three dimensional reconstruction of the human nucleus accumbens reveals topographic organization and molecular heterogeneity of D1-islands across the anterior posterior axis](https://www.biorxiv.org/content/10.64898/2026.09.25.754413v1?rss=1)
-*bioRxiv*  
-Score: **0.40**  
-Published: 2026-09-26T00:00:00+00:00
-Tags: neuroanatomy, nucleus accumbens
-
-Primarily anatomical and molecular study, not strongly connected to electrophysiological techniques or dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Spatial transcriptomics has transformed molecular characterization of the human brain, but most studies profile individual two-dimensional tissue sections and therefore cannot capture molecular organization across 3D neuroanatomical axes. Here, we developed a spatial genomics framework to reconstruct the 3D cellular architecture of the human nucleus accumbens (NAc) by densely sampling and aligning serial sections across its anterior-posterior (AP) extent. Combining single-cell Xenium profiling w…
-
-</details>
-
----
-
-## [A basolateral amygdala to dorsolateral striatum projection modulates stimulus-evoked motor behavior](https://www.cell.com/neuron/fulltext/S0896-6273(26)00676-8?rss=yes)
+## [Two prefrontal-subcortical circuits estimate controllability and reflect its impact on learning](https://www.cell.com/neuron/fulltext/S0896-6273(26)00739-7?rss=yes)
 *Neuron*  
-Score: **0.40**  
-Published: 2026-09-25T00:00:00+00:00
-Tags: neural dynamics, circuitry
+Score: **0.60**  
+Published: 2026-10-01T00:00:00+00:00
+Tags: neural circuits, learning, computational neuroscience
 
-This paper involves neural circuitry and dynamics, although not directly matching primary interests, it has aspects of neural connectivity and behavior.
+Focus on neural circuits and learning processes, supporting computational neuroscience aspects.
 
 <details>
 <summary>RSS summary</summary>
 
-Hobel et al. describe a direct, functional projection from the basolateral amygdala to dorsolateral striatum. This sparse pathway modulates dorsolateral striatal activity, can prolong and augment sensory-evoked motor responses, and is overactive in a Sapap3 null mouse model of OCD, providing a route for limbic modulation of sensorimotor behavior.
+(Neuron 115, ▪▪–▪▪.e1–e9; January 20, 2027)
 
 </details>
 
