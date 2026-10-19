@@ -1,194 +1,228 @@
-# Weekly ToC Digest (week of 2026-10-12)
+# Weekly ToC Digest (week of 2026-10-19)
 
-Prioritized items focus on neural dynamics, electrophysiology, and computational modeling. No items matched the user's primary interests in neural time series methods, oscillations, or electrophysiology. Focused on signal processing, oscillations and neural data approaches. Prioritized cross-species studies and computational methods over pure behavioral or clinical findings. Focusing on neural dynamics, time series methods, and signal processing for physiological data, with additional emphasis on oscillations, and electrophysiology.
+Filter: Focus on electrophysiology, neural dynamics, oscillations, methods for physiological time series. Exclude clinical-only and non-neural biological studies. Reviewed RSS feed items for relevance based on given interests and scoring calibration. No highly relevant papers matching the specific interests were found this week. Papers on neural oscillations, physiological signal processing, and computational neuroscience scored higher. Other topics received lower scores based on relevance to interests.
 
-**Included:** 11 (score ≥ 0.35)  
-**Scored:** 13 total items
+**Included:** 13 (score ≥ 0.35)  
+**Scored:** 15 total items
 
 ---
 
-## [EEG Pathology Detection via Clinical Concept Bottleneck Models](https://www.biorxiv.org/content/10.64898/2026.10.04.756607v1?rss=1)
+## [Isoflurane anesthesia CNS recovery state: ultra-slow oscillations and cellular-stress-responsive gene expression](https://www.biorxiv.org/content/10.64898/2026.10.18.760000v1?rss=1)
 *bioRxiv*  
 Score: **0.90**  
-Published: 2026-10-11T00:00:00+00:00
-Tags: EEG, methods, pathology detection
+Published: 2026-10-19T00:00:00+00:00
+Tags: EEG, oscillations, timescales
 
-Introduces concept bottleneck models for EEG pathology detection using EEG biomarkers, aligning with interests in electrophysiology and signal processing.
+Focuses on slow-wave EEG features and ultra-slow oscillations during anesthesia recovery, relevant for oscillations and neural timescales.
 
 <details>
 <summary>RSS summary</summary>
 
-Deep learning models for electroencephalography (EEG) pathology detection achieve competitive accuracy but offer limited interpretability. In this paper, we introduce concept bottleneck models (CBMs) for EEG pathology detection which use clinical EEG biomarkers computed analytically from the signal as a bottleneck to be used for prediction. Those concepts include band power, spectral ratios, alpha peak frequency and amplitude, hemispheric asymmetry and phase locking values. With the backbone bas…
+General anesthesia and NREM sleep share slow-wave EEG features, yet whether anesthesia substitutes for physiological sleep remains unclear. We compared recovery from 4h of isoflurane anesthesia (IA) with time-matched sleep and sleep deprivation (SD) in male C57BL/6J mice using continuous EEG/EMG recordings and frontal cortex RNA sequencing. IA recovery produced transient, rebound arousal, reduced early NREM and REM sleep, and, fragmented subsequent NREM bouts, and persistant, ultra-slow EEG-osci…
 
 </details>
 
 ---
 
-## [Simultaneous awake replay of multiple spatial representations](https://www.cell.com/neuron/fulltext/S0896-6273(26)00724-5?rss=yes)
-*Neuron*  
-Score: **0.90**  
-Published: 2026-10-08T00:00:00+00:00
-Tags: electrophysiology, neural dynamics
-
-This paper on hippocampal place cell activity involves neural population dynamics and is relevant to electrophysiology interests.
-
-<details>
-<summary>RSS summary</summary>
-
-Mou and Ji demonstrate that hippocampal place cell activity representing multiple trajectories are simultaneously replayed during reward consumption in an observational learning task. Simultaneous replay reflects the spatial structure and reward sites in the task, prioritizes correct trajectories, and correlates more with task performance and cortical activity than single replay.
-
-</details>
-
----
-
-## [CLEAR-FORCE: A reservoir computing framework for closed-loop brain stimulation](https://www.biorxiv.org/content/10.64898/2026.10.05.756709v1?rss=1)
+## [Temporal modulation of cortical parvalbumin and somatostatin neurons shapes network activation and adaptation during microstimulation](https://www.biorxiv.org/content/10.64898/2026.10.17.759837v1?rss=1)
 *bioRxiv*  
 Score: **0.85**  
-Published: 2026-10-12T00:00:00+00:00
-Tags: closed-loop, stimulation, neural dynamics
+Published: 2026-10-19T00:00:00+00:00
+Tags: neural dynamics, timeseries, neural modulation
 
-Focuses on machine learning frameworks for adaptive brain stimulation, relevant for neural dynamics and computational neuroscience.
+The study involves modulation and dynamics of neuronal activity using microstimulation, which involves neural time series analysis and computational aspects.
 
 <details>
 <summary>RSS summary</summary>
 
-Electrical stimulation of brain activity has emerged as a key therapeutic intervention for neurological diseases. The success of these approaches relies on precisely tuned stimulation parameters. A major challenge is that these parameters should ideally be adjusted in real-time based on changes in brain activity. Closed-loop controllers address this challenge by monitoring brain activity and adapting stimulation according to ongoing changes in neural dynamics. While machine learning has been hel…
+Parvalbumin-positive (PV) and somatostatin-positive (SOM) inhibitory interneurons play distinct and critical roles in cortical sensory processing, yet their activation dynamics during patterned input remain unclear. This study used two-photon calcium imaging to measure how PV and SOM interneurons are activated and regulate layer 2/3 somatosensory cortical activity during prolonged, patterned input with 22 clinically relevant microstimulation patterns divided by temporal pattern (fixed, burst, or…
 
 </details>
 
 ---
 
-## [Distinct millisecond-scale click-train patterns evoke discriminable behavioral and neural responses in humans and rats](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004046)
-*PLOS Biol*  
-Score: **0.85**  
-Published: 2026-10-08T14:00:00+00:00
-Tags: electrophysiology, timescales, cross-species
-
-The study involves cross-species electrophysiology examining neural responses to temporal patterns, aligning well with interests in neuronal timescales and computational neuroscience.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>by Yuying Zhai, Peirun Song, Ana Belén Lao-Rodríguez, Xinyu Du, Haoxuan Xu, Hangting Ye, Xuehui Bao, Ishrat Mehmood, Nayaab Shahir Pandit, Cheng Chang, Zhouyou Dai, Zhiyi Tu, Pei Chen, Tingting Zhang, Lingling Zhang, Xuan Zhao, David Pérez-González, Manuel S. Malmierca, Xiongjie Yu</p> Natural sounds are shaped by both spectral content and temporal patterning. Here we ask whether click trains with the same mean inter-click interval, but different millisecond-scale temporal patterns evoke dist…
-
-</details>
-
----
-
-## [Extracting brain-wide interactions with CURBD](https://www.nature.com/articles/s41592-026-03258-9)
-*Nature Methods*  
-Score: **0.85**  
-Published: 2026-10-07T00:00:00+00:00
-Tags: methods, signal processing
-
-Introduces a method to extract brain-wide interactions, aligning with methods for time series analysis and signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature Methods, Published online: 07 October 2026; <a href="https://www.nature.com/articles/s41592-026-03258-9">doi:10.1038/s41592-026-03258-9</a></p>Extracting brain-wide interactions with CURBD
-
-</details>
-
----
-
-## [Beyond the attractor: closed-loop stimulation design for learning multistable neural dynamics](https://www.biorxiv.org/content/10.64898/2026.10.05.756678v1?rss=1)
+## [Theta sequences support real-time spatial memory retrieval](https://www.biorxiv.org/content/10.64898/2026.10.18.759880v1?rss=1)
 *bioRxiv*  
 Score: **0.80**  
-Published: 2026-10-12T00:00:00+00:00
-Tags: neural dynamics, closed-loop, methods
+Published: 2026-10-18T00:00:00+00:00
+Tags: theta oscillations, memory, cognitive processes
 
-Addresses challenges in neural dynamics with closed-loop experiments, relevant to interests in neural time series methods.
+Focuses on theta oscillations and their role in memory processes, aligning well with interests in oscillations and timescales.
 
 <details>
 <summary>RSS summary</summary>
 
-Online identification of nonlinear dynamical systems faces two challenges. Noisy, partial observations make the latent state difficult to estimate. Local attractors can also keep passive trajectories in regions that reveal little about the unknown dynamics. Both challenges commonly arise in closed-loop neural experiments where stimulation must be chosen from noisy spike counts, while neural activity may remain near a stable state unless stimulation drives it elsewhere. We address this problem by…
+Oscillations play a critical role in orchestrating the timing of neural activity during cognitive processes. In the hippocampus, place cells encode spatial locations, and their activity is organized by theta oscillations into sequences that represent past, present, and potential future states. Recently, scrambling theta oscillations in vivo was shown to impair memory retrieval during navigation and decision-making, while leaving place cell activity intact. This surprising result highlights that …
 
 </details>
 
 ---
 
-## [Efficient and robust control with spikes that constrain free energy](https://www.pnas.org/doi/abs/10.1073/pnas.2602161123?af=R)
-*PNAS*  
-Score: **0.75**  
-Published: 2026-10-08T07:00:00+00:00
-Tags: SNN, computational, signal processing
+## [A half-center oscillator regulates sleep pressure](https://www.nature.com/articles/s41593-026-02431-9)
+*Nature Neuroscience*  
+Score: **0.80**  
+Published: 2026-10-15T00:00:00+00:00
+Tags: oscillations, timescales
 
-This paper discusses spiking neural networks and their efficiency in controlling dynamical systems, relevant to physiological signal processing interests.
+The paper explores a half-center oscillator, relevant to neural oscillations and slow-wave activity regulation, aligning with interests in oscillations and timescales.
 
 <details>
 <summary>RSS summary</summary>
 
-Proceedings of the National Academy of Sciences, Volume 123, Issue 41, October 2026. <br />SignificanceHow spiking neural networks (SNNs) efficiently control our bodies is still a mystery. Understanding these mechanisms may allow the control of arbitrary dynamical systems with low power consumption devices, such as neuromorphic hardware. Here, ...
+<p>Nature Neuroscience, Published online: 15 October 2026; <a href="https://www.nature.com/articles/s41593-026-02431-9">doi:10.1038/s41593-026-02431-9</a></p>Hasenhuetl et al. show that neurons innervating the dorsal fan-shaped body of Drosophila form a half-center oscillator, a circuit motif typically found in central pattern generators for locomotion. Here, this circuit generates slow-wave activity for the regulation of sleep.
 
 </details>
 
 ---
 
-## [Sound asleep, yet still listening: auditory processing during human sleep](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(26)00214-7?rss=yes)
-*Trends Cogn Sci*  
-Score: **0.65**  
-Published: 2026-10-08T00:00:00+00:00
-Tags: cognitive neuroscience
-
-Involves cognitive neuroscience aspects of sensory processing, though lacking strong electrophysiology or methods focus.
-
-<details>
-<summary>RSS summary</summary>
-
-Sleepers can wake to their name, but ignore louder irrelevant sounds, a paradox that suggests more than simple sensory gating. Growing evidence reveals flexible auditory coupling during human sleep, ranging from complete disconnection to high-level cognitive processing and even to physical responses. Here, we synthesize the multiple cognitive levels at which auditory stimuli are processed (or not) during human sleep and outline factors modulating this processing. Moments of sensory isolation may…
-
-</details>
-
----
-
-## [AI has solved many math problems, but it has not solved math](https://www.science.org/doi/abs/10.1126/science.ael8339?af=R)
-*Science*  
-Score: **0.60**  
-Published: 2026-10-08T07:00:00+00:00
-Tags: AI, computational
-
-While not directly related to neuroscience, the exploration of AI in solving mathematical problems may offer insights for computational modeling.
-
-<details>
-<summary>RSS summary</summary>
-
-Science, Volume 394, Issue 6820, October 2026. <br />
-
-</details>
-
----
-
-## [Astrocyte-Specific dsRNA-ADAR1 Signalling Links Innate Immunity to Complement Activation in Parkinson Disease](https://www.biorxiv.org/content/10.64898/2026.10.06.757209v1?rss=1)
+## [Real-Time Neurotransmitter Sensing in Midbrain Organoids Using 3D Carbon Cup Electrodes](https://www.biorxiv.org/content/10.64898/2026.10.12.758473v1?rss=1)
 *bioRxiv*  
-Score: **0.40**  
-Published: 2026-10-12T00:00:00+00:00
-Tags: neuroinflammation, ADAR1, signaling
+Score: **0.76**  
+Published: 2026-10-18T00:00:00+00:00
+Tags: neurotransmitter sensing, electrophysiology, data science
 
-Touches on neural dynamics and signaling pathways, though more immunological focus limits relevance.
+Utilizes advanced electrodes for real-time neurotransmitter sensing, integrating electrophysiology techniques and data science.
 
 <details>
 <summary>RSS summary</summary>
 
-Background: Dysregulated innate immune activation is a key feature of Parkinson disease (PD), but the upstream triggers and cell-type-specific mechanisms remain unclear. Double-stranded RNA (dsRNA) has emerged as a potential driver of innate immune responses. Adenosine deaminase acting on RNA 1 (ADAR1), particularly its interferon-inducible p150 isoform, edits dsRNA to limit aberrant immune activation. Whether this dsRNA-ADAR1 axis contributes to neuroinflammation in PD in a cell-type-specific m…
+Real time, chemically selective detection of neurotransmitter release in brain organoids remains a challenge due to their complex three dimensional architecture and limited optical accessibility. We introduce 3D printed carbon cup electrodes (CCEs) -pyrolyzed, multi level pillar structures - designed to confine a single organoid, increase electroactive surface area, and enable amperometric recordings of oxidizable neurotransmitters. The CCEs exhibit excellent electrochemical performance and repr…
 
 </details>
 
 ---
 
-## [EBV reactivation precedes multiple sclerosis relapse](https://www.nature.com/articles/s41582-026-01280-1)
-*Nature Rev Neurol*  
-Score: **0.40**  
-Published: 2026-10-09T00:00:00+00:00
-Tags: clinical, neural dynamics
+## [Cooperative processing of visual threat across collicular pathways](https://www.biorxiv.org/content/10.64898/2026.10.12.758428v1?rss=1)
+*bioRxiv*  
+Score: **0.72**  
+Published: 2026-10-18T00:00:00+00:00
+Tags: electrophysiology, neural processing, cell-type
 
-Paper on multiple sclerosis with potential connections to neural dynamics, though lacking direct electrophysiology or computational elements.
+Combines cell-type-specific inhibition and large-scale electrophysiology, relevant for cross-species studies and neural processing.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Nature Reviews Neurology, Published online: 09 October 2026; <a href="https://www.nature.com/articles/s41582-026-01280-1">doi:10.1038/s41582-026-01280-1</a></p>The pre-relapse immune signature in people with multiple sclerosis (MS) is enriched for Epstein−Barr virus (EBV)-responsive host genes, according to a new study.
+Rapid defensive actions require the transformation of sensory cues into appropriate motor responses. The superior colliculus is central to this transformation, containing defined cell-types that form parallel output pathways linking visual inputs to distinct behaviors. However, whether these pathways act independently or cooperate remains unclear. Here we combine cell-type-specific inhibition, large-scale electrophysiology, and functional ultrasound imaging to determine how these pathways contri…
+
+</details>
+
+---
+
+## [Entering and Exiting Awareness are Asymmetrical: Evidence from tracking Continuous Flash Suppression](https://www.biorxiv.org/content/10.64898/2026.10.18.759988v1?rss=1)
+*bioRxiv*  
+Score: **0.70**  
+Published: 2026-10-19T00:00:00+00:00
+Tags: methods, EEG
+
+Investigation of awareness thresholds using new paradigms could inform computational modeling and perception studies.
+
+<details>
+<summary>RSS summary</summary>
+
+This study provides a model for obtaining cleaner threshold estimates of entry into and exit from conscious awareness measured with the popular breaking continuous flash suppression (bCFS) and newer tracking CFS (tCFS) paradigms. In both, a suppressed target increases in contrast until it breaks into awareness. tCFS also measures exit thresholds by reversing the contrast change. Both CFS paradigms require a response when the threshold is reached and thus involve a reaction-time component. During…
+
+</details>
+
+---
+
+## [Mechanistic versus descriptive interpretation of brain activity pattern reconstruction](https://www.pnas.org/doi/abs/10.1073/pnas.2609630123?af=R)
+*PNAS*  
+Score: **0.70**  
+Published: 2026-10-15T07:00:00+00:00
+Tags: methods, computational
+
+Focuses on geometric eigenmodes in brain activity, indirectly relevant to spectral parameterization and computational neuroscience.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 42, October 2026. <br />SignificanceDoes accurate reconstruction of brain activity imply a biological mechanism? Geometric eigenmodes are proposed as a foundational basis for brain function due to their strong reconstruction performance. We revisit this assumption by ...
+
+</details>
+
+---
+
+## [Responses to unannounced rule changes in adults with developmental disabilities: A community-based pilot study with consumer-grade EEG](https://www.biorxiv.org/content/10.64898/2026.10.17.759777v1?rss=1)
+*bioRxiv*  
+Score: **0.65**  
+Published: 2026-10-19T00:00:00+00:00
+Tags: EEG, methods
+
+Utilizes EEG to assess adaptive responses, relevant for physiological signal processing and neural data analysis.
+
+<details>
+<summary>RSS summary</summary>
+
+Unannounced changes in rules or environments often precede challenging behavior and limit community participation for adults with developmental disabilities, yet their responses to change have rarely been quantified directly. We recruited adults with developmental disabilities, including those with intellectual disability, at a community day-service center. We administered a probabilistic reversal learning task and recorded resting-state electroencephalography (EEG) via a 14-channel wireless EEG…
+
+</details>
+
+---
+
+## [Cellular-resolution Three-photon Ultra-Deep Imaging (TrUDI) of neuronalpopulation activity at 2 mm depth in the mammalian brain](https://www.biorxiv.org/content/10.64898/2026.10.16.759624v1?rss=1)
+*bioRxiv*  
+Score: **0.60**  
+Published: 2026-10-19T00:00:00+00:00
+Tags: methods, neural imaging
+
+Advanced imaging technique relevant for cross-species electrophysiology and studying deep brain areas.
+
+<details>
+<summary>RSS summary</summary>
+
+Extending the depth reach of multi-photon microscopy for imaging neuronal population activity in the scattering mammalian brain is an exponentially hard problem. Three-photon (3p) microscopy has enabled imaging of neuroactivity at depths up to ~1.2 mm in the mouse brain. However, the fundamental depth limit of 3p imaging, as set by the depth at which the out-of-focus background fluorescence exceeds the in-focus fluorescence signal, is well beyond 2 mm. Reaching this fundamental depth limit in 3p…
+
+</details>
+
+---
+
+## [Hidden Markov Modeling Reveals Altered Functional Network Dynamics in Multiple Sclerosis](https://www.biorxiv.org/content/10.64898/2026.10.15.759440v1?rss=1)
+*bioRxiv*  
+Score: **0.55**  
+Published: 2026-10-19T00:00:00+00:00
+Tags: methods, timescales
+
+Uses computational modeling to study network dynamics, potentially useful for exploring neural timescales and network behaviors.
+
+<details>
+<summary>RSS summary</summary>
+
+Purpose: Multiple sclerosis (MS) is a neurodegenerative and demyelinating disease of the central nervous system. Recent evidence suggests that localized gray matter atrophy in MS may be involved in distributed functional brain networks. However, the dynamic trajectory of functional network alterations in MS remains unclear. The current study extends prior network-mediated findings and aims to investigate the dynamic functional connectivity (dFC) and energetic landscape across an atrophy-prone ne…
+
+</details>
+
+---
+
+## [Raphe nuclei in cognition: A network-level framework for behavioral-state control](https://www.cell.com/neuron/fulltext/S0896-6273(26)00723-3?rss=yes)
+*Neuron*  
+Score: **0.40**  
+Published: 2026-10-16T00:00:00+00:00
+Tags: neural networks, cognition, behavioral-state
+
+Focuses on neural network frameworks and serotonergic function related to behavioral-state control.
+
+<details>
+<summary>RSS summary</summary>
+
+Khalighinejad and Rushworth propose that raphe nuclei regulate behavioral-state transitions by integrating environmental statistics within distributed cortico-subcortical networks. Their framework links diverse serotonergic functions and predicts when motivational and cognitive states persist, update, or switch.
+
+</details>
+
+---
+
+## [FOXG1 spatiotemporally orchestrates subtype fate specification and patch/matrix identity of striatal spiny projection neurons](https://www.pnas.org/doi/abs/10.1073/pnas.2603031123?af=R)
+*PNAS*  
+Score: **0.40**  
+Published: 2026-10-15T07:00:00+00:00
+Tags: neurons, development
+
+Concerns developmental neuroscience, but lacks specific ties to neural dynamics or physiological signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+Proceedings of the National Academy of Sciences, Volume 123, Issue 42, October 2026. <br />SignificanceThe striatum functions as a gateway to the basal ganglia and plays crucial roles in regulating movement, emotion, reward processing, and cognitive functions. The striatal projection neurons consist of three main subtypes, direct-pathway ...
 
 </details>
 
