@@ -1,177 +1,160 @@
-# Weekly ToC Digest (week of 2026-11-02)
+# Weekly ToC Digest (week of 2026-11-09)
 
-Prioritized items based on methods, oscillations, electrophysiology, and signal processing. Downweighted clinical, microbiology, and behavioral studies without electrophysiology or computational components. This week's selection focuses on papers related to spiking neural networks, cross-species electrophysiology, and neural timescales, which are highly relevant to the user's interests. Prioritize articles focusing on neural dynamics, physiological signal processing, computational modeling, and time series analysis. No relevant papers found this week that fit your specific keyword and topic preferences.
+Consider signaling potential searches on bioRxiv or relevant preprint servers for more specific interests. Focus on electrophysiology, computational neuroscience, and physiological signal processing. Prioritize methods and neural dynamics. Selected items focus on neural time series methods, EEG, and signal processing associated with physiological measurements. No high-priority articles matching the user's core research interests and keywords were available in this week's feeds.
 
-**Included:** 10 (score ≥ 0.35)  
+**Included:** 9 (score ≥ 0.35)  
 **Scored:** 10 total items
 
 ---
 
-## [Meet Neuropixels: how probes that track hundreds of brain cells at once are revolutionizing neuroscience](https://www.nature.com/articles/d41586-026-03511-3)
-*Nature*  
-Score: **0.90**  
-Published: 2026-11-02T00:00:00+00:00
-Tags: methods, electrophysiology
-
-Focuses on a tool for large-scale, single-cell neuronal recordings in electrophysiology.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>Nature, Published online: 02 November 2026; <a href="https://www.nature.com/articles/d41586-026-03511-3">doi:10.1038/d41586-026-03511-3</a></p>From rodents to humans, tools that enable large-scale, single-cell neuronal recordings are exposing the inner workings of the brain.
-
-</details>
-
----
-
-## [Recurrent Spiking Neural Networks for Continuous Motor Control: A Biologically Plausible Model of Motor Cortex](https://www.biorxiv.org/content/10.64898/2026.10.26.756490v1?rss=1)
+## [Feasible closed-loop stimulation for neural latent dynamics control](https://www.biorxiv.org/content/10.64898/2026.11.06.762216v1?rss=1)
 *bioRxiv*  
 Score: **0.90**  
-Published: 2026-10-31T00:00:00+00:00
-Tags: methods, spiking, neural-networks
+Published: 2026-11-07T00:00:00+00:00
+Tags: methods, neural dynamics, computational
 
-The paper presents a recurrent spiking neural network model aligning with user's interests in neural time series and computational neuroscience.
+Paper discusses closed-loop optogenetic control of latent dynamics in neural populations, aligning with interests in neural time-series and computational neuroscience.
 
 <details>
 <summary>RSS summary</summary>
 
-Motor cortex acquires skilled movements through recurrent spiking dynamics and experience-dependent synaptic plasticity, yet how such circuits learn continuous motor control using biologically local signals remains unclear. Here, we develop a recurrent spiking neural network model of motor cortex that addresses both the computational and biological requirements of motor learning. We first analytically derived the recurrent firing-rate state directly from synaptic input and trained the network by…
+Modern neuroscience benefits from powerful computational and experimental methods for studying neural populations, including latent dynamics models that predict behavior with few dimensions. But despite their explanatory utility, latent factors are seldom targeted explicitly with experimental perturbations, leaving causal relationships to behavior and inferred dynamical landscapes untested. A promising solution is closed-loop, multi-channel optogenetic control, which, when paired with model pred…
 
 </details>
 
 ---
 
-## [Longitudinal persistence of EEG brain fingerprints:phase and complex coherency geometry across sessions andfunctional states](https://www.biorxiv.org/content/10.64898/2026.10.26.761764v1?rss=1)
-*bioRxiv*  
-Score: **0.90**  
-Published: 2026-10-30T00:00:00+00:00
-Tags: EEG, aperiodic, methods, oscillations
-
-This study uses EEG phase and coherency analyses, relevant to neural signal processing and oscillation dynamics.
-
-<details>
-<summary>RSS summary</summary>
-
-Sensor-level EEG coherency can distinguish individuals, although its phase and magnitude patterns may reflect neural activity, source mixing, and recording geometry. We evaluated two geometric representations of complex coherency - unit phasors and full complex coherency - alongside triangle holonomies and magnitude-only descriptors. Using direct enrollment-probe matching without a trained identity classifier, we analyzed three independent longitudinal cohorts: RestCog (N = 60; approximately one…
-
-</details>
-
----
-
-## [Cortical long-range dynamics track excitation-inhibition balance across cognitive states and organizational principles](https://www.biorxiv.org/content/10.64898/2026.10.30.763069v1?rss=1)
+## [Projection-specific filtering of delta-theta input by layer 5 neurons in mouse secondary visual cortex](https://www.biorxiv.org/content/10.64898/2026.11.06.763938v1?rss=1)
 *bioRxiv*  
 Score: **0.85**  
-Published: 2026-11-01T00:00:00+00:00
-Tags: timescales, oscillations, electrophysiology
+Published: 2026-11-09T00:00:00+00:00
+Tags: oscillations, electrophysiology, delta-theta
 
-Discusses cortical dynamics and E/I balance, relevant for neuronal timescales and oscillations.
+Focuses on delta-theta oscillations and their processing in neurons, relevant to interests in oscillations and electrophysiology.
 
 <details>
 <summary>RSS summary</summary>
 
-A fundamental question in systems neuroscience is how the brain's excitation-inhibition (E/I) balance shapes the temporal structure of neural activity and whether we can non-invasively recover this relationship from neural scaling properties. We show that MRS-derived E/I balance is expressed in long-range temporal dynamics and constrained by cytoarchitecture. The laminar organisation of inhibitory circuits, spanning agranular to granular cortex, determines how faithfully regional dynamics reflec…
+Delta- and theta-band oscillations are thought to coordinate cortical activity and to convey top-down signals, but how the different output neurons of a cortical area transform such rhythmic input is less well understood. Layer 5 contains two projection classes, extratelencephalic (ET) and intratelencephalic (IT) neurons, which carry different information to different targets. Here we asked whether they also differ in how they process slow rhythmic input in the delta-theta range. We combined who…
 
 </details>
 
 ---
 
-## [State-dependent modulation of cross-area sensory processing in mouse neocortex](https://www.biorxiv.org/content/10.64898/2026.10.30.763148v1?rss=1)
+## [Neurons entrain and shape an intrinsic arteriole rhythm that distributes blood across the cortical mantle](https://www.biorxiv.org/content/10.64898/2026.11.05.764641v1?rss=1)
+*bioRxiv*  
+Score: **0.85**  
+Published: 2026-11-06T00:00:00+00:00
+Tags: neuronal, oscillations, vascular
+
+Focuses on neuronal dynamics and vascular oscillations, relevant for neural and physiological time series.
+
+<details>
+<summary>RSS summary</summary>
+
+The cerebral arteriole network distributes blood across cortex through branches whose diameters oscillate near a frequency fvaso ~ 0.1 Hz. We asked whether the spatiotemporal pattern of these vaso-oscillations reflects neuronal entrainment of an intrinsic vascular oscillation. Three findings support this: First, suppressing endothelial hyperpolarization left resting-state oscillations intact but weakened the vascular response to neural activity, showing that vasomotion originates within the arte…
+
+</details>
+
+---
+
+## [Disentanglement of persistent and dynamic neural substrates of working memory](https://www.biorxiv.org/content/10.64898/2026.11.05.764743v1?rss=1)
 *bioRxiv*  
 Score: **0.80**  
-Published: 2026-10-31T00:00:00+00:00
-Tags: electrophysiology, sensory
+Published: 2026-11-09T00:00:00+00:00
+Tags: working memory, timescales, computational
 
-Focuses on sensory processing across brain regions with electrophysiology components, relevant to physiological signal processing.
+Explores substrates of working memory using computational models, matching interests in timescales and neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Perception and decision-making rely on distributed cortical circuits that transform sensory inputs into choices and actions. Such cortical processing varies with behavioral state, such that the same inputs can be handled differently across states. However, how behavioral state shapes sensory processing across distributed brain regions remains unclear. To address this question, we trained mice to perform a two-alternative choice task that required discrimination between paired auditory and whiske…
+Competing theories of working memory have alternatively emphasized the importance of persistent and dynamic substrates of this cognitive function. Here, we directly tested these theories by computationally isolating the contributions of persistent and dynamic activity to working memory. We analyzed neuronal population activity recordings in macaques doing match/non-match working memory tasks. We first extracted signatures of persistent and dynamic activity through cue-specific temporal means, te…
 
 </details>
 
 ---
 
-## [Connectivity predicts where computation forms and where it can be changed](https://www.biorxiv.org/content/10.64898/2026.10.28.762656v1?rss=1)
-*bioRxiv*  
+## [Evaluation of PainWaive: a consumer-grade EEG headset for remote EEG monitoring and neurofeedback research in chronic pain](https://www.nature.com/articles/s41746-026-03424-5)
+*npj Digital Med*  
 Score: **0.80**  
-Published: 2026-10-30T00:00:00+00:00
-Tags: connectivity, computational, networks
+Published: 2026-11-06T00:00:00+00:00
+Tags: EEG, methods, signal processing
 
-Link between neural circuit connectivity and computational neuroscience aligns well with neural modeling interests.
+The study focuses on EEG monitoring and neurofeedback, aligning with interests in EEG and signal processing.
 
 <details>
 <summary>RSS summary</summary>
 
-How a fixed neural circuit supports many computations is a central question in neuroscience and artificial intelligence. Population dynamics show how computations are implemented, but not how connectivity constrains them. Here we show that recurrent connectivity contains a mesoscale organization between single units and the population. Grouping units by the aggregate input they receive from other groups identifies connectivity-defined classes from the recurrent weights alone. In networks trained…
+<p>npj Digital Medicine, Published online: 06 November 2026; <a href="https://www.nature.com/articles/s41746-026-03424-5">doi:10.1038/s41746-026-03424-5</a></p>Evaluation of PainWaive: a consumer-grade EEG headset for remote EEG monitoring and neurofeedback research in chronic pain
 
 </details>
 
 ---
 
-## [Large-scale EEG reveals shared and distinct neural oscillatory features across major psychiatric disorders](https://www.nature.com/articles/s41398-026-04532-2)
-*Trans Psychiatry*  
+## [Probing EEG Foundation Model Attention Maps for Lightweight Interpretable Emotion Recognition](https://www.biorxiv.org/content/10.64898/2026.11.05.764629v1?rss=1)
+*bioRxiv*  
 Score: **0.75**  
-Published: 2026-10-30T00:00:00+00:00
-Tags: EEG, oscillations, neural data
+Published: 2026-11-06T00:00:00+00:00
+Tags: EEG, methods, data science
 
-Focus on EEG oscillatory features relevant to understanding neural dynamics across conditions.
+Involves EEG and data science, focusing on neural signal interpretation.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>Translational Psychiatry, Published online: 30 October 2026; <a href="https://www.nature.com/articles/s41398-026-04532-2">doi:10.1038/s41398-026-04532-2</a></p>Large-scale EEG reveals shared and distinct neural oscillatory features across major psychiatric disorders
+Foundation Models (FMs) trained on EEG signals promise subject- and dataset-independent pipelines for brain-computer interface (BCI) applications, but have yet to consistently outperform task-specific architectures, and their large representations are costly to compute and store. As a means of advancing the understanding of the Foundation Models' inner mechanisms, we propose a lightweight alternative that exploits the self-attention mechanism of REVE, a pretrained EEG FM, to derive features simi…
 
 </details>
 
 ---
 
-## [Levodopa induced dyskinesia severity is linked to distinct microstructural alterations in nigrostriatal and brainwide neural circuits](https://www.biorxiv.org/content/10.64898/2026.10.30.763167v1?rss=1)
+## [Real-time detection of N2 and N3 sleep from scalp and intracranial EEG](https://www.biorxiv.org/content/10.64898/2026.11.05.764694v1?rss=1)
 *bioRxiv*  
 Score: **0.70**  
-Published: 2026-10-31T00:00:00+00:00
-Tags: timescales, neural-circuits
+Published: 2026-11-06T00:00:00+00:00
+Tags: EEG, methods, signal processing
 
-Involves neural dynamics focusing on structural alterations in brain networks, aligning with interests in neuronal timescales and dynamics.
+Relevant for methods in physiological signal processing and EEG use.
 
 <details>
 <summary>RSS summary</summary>
 
-Dopaminergic replacement therapy via L-DOPA is the major medical therapy for Parkinsons Disease. Long-term L-DOPA administration is known to cause dyskinetic movements, L-DOPA Induced Dyskinesia (LID). It remains unclear if the LID related, maladaptive changes in brain structure/function are localized to neural circuits within the nigrostriatal DA system or have brainwide impact. We employed multi-shell diffusion magnetic resonance imaging and correlational tractography to investigate structural…
+Sleep rhythms such as slow oscillations and spindles arise predominantly during N2 and N3 sleep (N2+N3). Closed-loop stimulation targeting these rhythms is a promising strategy to enhance memory. Such stimulation requires online sleep stage classification. Conventional staging labels completed 30-s epochs using past and future data and cannot support online staging. We developed a causal tracker that, every 2 s, estimates the current stage from the preceding 10 s of scalp or intracranial EEG. We…
 
 </details>
 
 ---
 
-## [Compensation of hyperexcitability with simulation-based inference](https://elifesciences.org/articles/107045)
-*eLife*  
-Score: **0.70**  
-Published: 2026-10-30T00:00:00+00:00
-Tags: computational, excitability, methods
+## [Phase-locked dual-band vibration bursts strengthen anti-kindling by vibrotactile coordinated reset stimulation in a spiking network model](https://www.biorxiv.org/content/10.64898/2026.11.05.764557v1?rss=1)
+*bioRxiv*  
+Score: **0.68**  
+Published: 2026-11-06T00:00:00+00:00
+Tags: neuronal, oscillations, modeling
 
-Addresses neural excitability and computational methods for hyperexcitability mechanisms.
+Discusses neuronal dynamics in a computational model relevant to neural oscillations.
 
 <details>
 <summary>RSS summary</summary>
 
-The activity of healthy neuronal networks is tightly regulated, and a shift toward hyperexcitability can cause various problems, such as epilepsies, memory deficits, and motor disorders. Numerous cellular, synaptic, and intrinsic mechanisms of hyperexcitability and compensatory mechanisms to restore healthy activity have been proposed. However, quantifying multiple compensatory mechanisms and their dependence on specific pathophysiological mechanisms has proven challenging, even in computational…
+Parkinsons disease and related movement disorders are accompanied by pathologically synchronized neuronal activity in cortico-basal ganglia circuits. Coordinated reset (CR) stimulation was derived computationally as a means of suppressing such activity at its source, by resetting the phases of the subpopulations of a synchronized network at staggered times. Under spike-timing-dependent plasticity (STDP), the resulting decorrelated firing depresses excitatory coupling and establishes a weakly cou…
 
 </details>
 
 ---
 
-## [Transient feedforward communication between somatosensory and premotor cortex supports goal-directed behavior](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004095)
-*PLOS Biol*  
+## [Measuring neuronal input-output operations in vivo with random access projection microscopy](https://www.biorxiv.org/content/10.64898/2026.11.05.764682v1?rss=1)
+*bioRxiv*  
 Score: **0.65**  
-Published: 2026-10-29T14:00:00+00:00
-Tags: spiking, cortical, behavior
+Published: 2026-11-06T00:00:00+00:00
+Tags: neuronal, methods, microscopy
 
-Studies spiking activity in cortical communication, applicable to electrophysiological dynamics.
+Focuses on electrophysiological methods for neuronal dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-<p>by Yadollah Ranjbar-Slamloo, Tsukasa Kamigaki</p> Goal-directed behavior requires sensory information to be transformed into motor commands, yet the precise temporal structure of communication between sensory and motor cortices during this process remains poorly understood. By simultaneously recording spiking activity from primary somatosensory cortex (S1) and secondary motor cortex (M2) in mice performing a tactile delayed go/no-go task, we identified a brief, stimulus-triggered communicatio…
+Neurons transform thousands of synaptic inputs into spiking output, and understanding this transformation requires measuring many submicron synapses at millisecond timescales in vivo. Here we present SLAP2, a two-photon random access projection microscope with no per-target access time cost, yielding over 5-fold faster imaging than existing methods, and performant real-time hardware motion correction. Flexible scanning modes enable measurement of hundreds of synapses at ~200 Hz, >800 synapses vo…
 
 </details>
 
