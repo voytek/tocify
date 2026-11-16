@@ -1,160 +1,228 @@
-# Weekly ToC Digest (week of 2026-11-09)
+# Weekly ToC Digest (week of 2026-11-16)
 
-Consider signaling potential searches on bioRxiv or relevant preprint servers for more specific interests. Focus on electrophysiology, computational neuroscience, and physiological signal processing. Prioritize methods and neural dynamics. Selected items focus on neural time series methods, EEG, and signal processing associated with physiological measurements. No high-priority articles matching the user's core research interests and keywords were available in this week's feeds.
+This week's selections prioritize methods relevant to neural signal processing, an area of particular interest as per the given criteria. None of the papers in this week’s list directly relate to the user’s highly specific interests in neural dynamics or time series analysis. Prioritized by relevance to physiological signal processing and neural dynamics. This week's items were filtered based on relevance to neural dynamics, physiological time series, and cross-species comparisons.
 
-**Included:** 9 (score ≥ 0.35)  
-**Scored:** 10 total items
-
----
-
-## [Feasible closed-loop stimulation for neural latent dynamics control](https://www.biorxiv.org/content/10.64898/2026.11.06.762216v1?rss=1)
-*bioRxiv*  
-Score: **0.90**  
-Published: 2026-11-07T00:00:00+00:00
-Tags: methods, neural dynamics, computational
-
-Paper discusses closed-loop optogenetic control of latent dynamics in neural populations, aligning with interests in neural time-series and computational neuroscience.
-
-<details>
-<summary>RSS summary</summary>
-
-Modern neuroscience benefits from powerful computational and experimental methods for studying neural populations, including latent dynamics models that predict behavior with few dimensions. But despite their explanatory utility, latent factors are seldom targeted explicitly with experimental perturbations, leaving causal relationships to behavior and inferred dynamical landscapes untested. A promising solution is closed-loop, multi-channel optogenetic control, which, when paired with model pred…
-
-</details>
+**Included:** 13 (score ≥ 0.35)  
+**Scored:** 17 total items
 
 ---
 
-## [Projection-specific filtering of delta-theta input by layer 5 neurons in mouse secondary visual cortex](https://www.biorxiv.org/content/10.64898/2026.11.06.763938v1?rss=1)
-*bioRxiv*  
-Score: **0.85**  
-Published: 2026-11-09T00:00:00+00:00
-Tags: oscillations, electrophysiology, delta-theta
-
-Focuses on delta-theta oscillations and their processing in neurons, relevant to interests in oscillations and electrophysiology.
-
-<details>
-<summary>RSS summary</summary>
-
-Delta- and theta-band oscillations are thought to coordinate cortical activity and to convey top-down signals, but how the different output neurons of a cortical area transform such rhythmic input is less well understood. Layer 5 contains two projection classes, extratelencephalic (ET) and intratelencephalic (IT) neurons, which carry different information to different targets. Here we asked whether they also differ in how they process slow rhythmic input in the delta-theta range. We combined who…
-
-</details>
-
----
-
-## [Neurons entrain and shape an intrinsic arteriole rhythm that distributes blood across the cortical mantle](https://www.biorxiv.org/content/10.64898/2026.11.05.764641v1?rss=1)
-*bioRxiv*  
-Score: **0.85**  
-Published: 2026-11-06T00:00:00+00:00
-Tags: neuronal, oscillations, vascular
-
-Focuses on neuronal dynamics and vascular oscillations, relevant for neural and physiological time series.
-
-<details>
-<summary>RSS summary</summary>
-
-The cerebral arteriole network distributes blood across cortex through branches whose diameters oscillate near a frequency fvaso ~ 0.1 Hz. We asked whether the spatiotemporal pattern of these vaso-oscillations reflects neuronal entrainment of an intrinsic vascular oscillation. Three findings support this: First, suppressing endothelial hyperpolarization left resting-state oscillations intact but weakened the vascular response to neural activity, showing that vasomotion originates within the arte…
-
-</details>
-
----
-
-## [Disentanglement of persistent and dynamic neural substrates of working memory](https://www.biorxiv.org/content/10.64898/2026.11.05.764743v1?rss=1)
-*bioRxiv*  
+## [Neurons in a dish are the newest computing machines](https://www.science.org/doi/abs/10.1126/science.aeo0641?af=R)
+*Science*  
 Score: **0.80**  
-Published: 2026-11-09T00:00:00+00:00
-Tags: working memory, timescales, computational
+Published: 2026-11-12T07:00:02+00:00
+Tags: neurons, computation, neural
 
-Explores substrates of working memory using computational models, matching interests in timescales and neural dynamics.
+This article explores neurons used in computational contexts, relevant for neural computation and physiology.
 
 <details>
 <summary>RSS summary</summary>
 
-Competing theories of working memory have alternatively emphasized the importance of persistent and dynamic substrates of this cognitive function. Here, we directly tested these theories by computationally isolating the contributions of persistent and dynamic activity to working memory. We analyzed neuronal population activity recordings in macaques doing match/non-match working memory tasks. We first extracted signatures of persistent and dynamic activity through cue-specific temporal means, te…
+Science, Volume 394, Issue 6825, Page 707-708, November 2026. <br />
 
 </details>
 
 ---
 
-## [Evaluation of PainWaive: a consumer-grade EEG headset for remote EEG monitoring and neurofeedback research in chronic pain](https://www.nature.com/articles/s41746-026-03424-5)
-*npj Digital Med*  
-Score: **0.80**  
-Published: 2026-11-06T00:00:00+00:00
-Tags: EEG, methods, signal processing
-
-The study focuses on EEG monitoring and neurofeedback, aligning with interests in EEG and signal processing.
-
-<details>
-<summary>RSS summary</summary>
-
-<p>npj Digital Medicine, Published online: 06 November 2026; <a href="https://www.nature.com/articles/s41746-026-03424-5">doi:10.1038/s41746-026-03424-5</a></p>Evaluation of PainWaive: a consumer-grade EEG headset for remote EEG monitoring and neurofeedback research in chronic pain
-
-</details>
-
----
-
-## [Probing EEG Foundation Model Attention Maps for Lightweight Interpretable Emotion Recognition](https://www.biorxiv.org/content/10.64898/2026.11.05.764629v1?rss=1)
-*bioRxiv*  
+## [​​QSVQ-Net: A morphology-conditioned spiking–variational quantum network for interpretable brain tumour MRI classification](https://www.nature.com/articles/s41598-026-76936-5)
+*Scientific Reports*  
 Score: **0.75**  
-Published: 2026-11-06T00:00:00+00:00
-Tags: EEG, methods, data science
+Published: 2026-11-16T00:00:00+00:00
+Tags: neural network, MRI, brain
 
-Involves EEG and data science, focusing on neural signal interpretation.
+Focuses on neural networks and morphology in brain applications, with potential crossover to timescale and signal processing interests.
 
 <details>
 <summary>RSS summary</summary>
 
-Foundation Models (FMs) trained on EEG signals promise subject- and dataset-independent pipelines for brain-computer interface (BCI) applications, but have yet to consistently outperform task-specific architectures, and their large representations are costly to compute and store. As a means of advancing the understanding of the Foundation Models' inner mechanisms, we propose a lightweight alternative that exploits the self-attention mechanism of REVE, a pretrained EEG FM, to derive features simi…
+<p>Scientific Reports, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41598-026-76936-5">doi:10.1038/s41598-026-76936-5</a></p>​​QSVQ-Net: A morphology-conditioned spiking–variational quantum network for interpretable brain tumour MRI classification
 
 </details>
 
 ---
 
-## [Real-time detection of N2 and N3 sleep from scalp and intracranial EEG](https://www.biorxiv.org/content/10.64898/2026.11.05.764694v1?rss=1)
+## [Non-canonical subthalamic nucleus projections regulate motor variability](https://www.biorxiv.org/content/10.64898/2026.11.12.765751v1?rss=1)
 *bioRxiv*  
 Score: **0.70**  
-Published: 2026-11-06T00:00:00+00:00
-Tags: EEG, methods, signal processing
+Published: 2026-11-12T00:00:00+00:00
+Tags: neural dynamics, motor control, electrophysiology
 
-Relevant for methods in physiological signal processing and EEG use.
+Discusses regulation of motor variability, relevant to neural dynamics and electrophysiological study.
 
 <details>
 <summary>RSS summary</summary>
 
-Sleep rhythms such as slow oscillations and spindles arise predominantly during N2 and N3 sleep (N2+N3). Closed-loop stimulation targeting these rhythms is a promising strategy to enhance memory. Such stimulation requires online sleep stage classification. Conventional staging labels completed 30-s epochs using past and future data and cannot support online staging. We developed a causal tracker that, every 2 s, estimates the current stage from the preceding 10 s of scalp or intracranial EEG. We…
+Regulation of motor variability is a key hallmark of motor skill learning, balancing motor exploration with optimization of identified task solutions. Nevertheless, the underlying circuit mechanisms in the mammalian brain remain largely unknown. Subnuclei of the dorsal striatum in the basal ganglia promote stereotyped or variable behavior, respectively, and deep brain stimulation of the downstream subthalamic nucleus (STN) can alter motor variability. We therefore tested whether the STN regulate…
 
 </details>
 
 ---
 
-## [Phase-locked dual-band vibration bursts strengthen anti-kindling by vibrotactile coordinated reset stimulation in a spiking network model](https://www.biorxiv.org/content/10.64898/2026.11.05.764557v1?rss=1)
+## [Nucleus reuniens gates selective hippocampal-prefrontal interactions during NREM sleep](https://www.biorxiv.org/content/10.64898/2026.11.11.765971v1?rss=1)
 *bioRxiv*  
-Score: **0.68**  
-Published: 2026-11-06T00:00:00+00:00
-Tags: neuronal, oscillations, modeling
+Score: **0.70**  
+Published: 2026-11-13T00:00:00+00:00
+Tags: electrophysiology, timescales, methods
 
-Discusses neuronal dynamics in a computational model relevant to neural oscillations.
+This study uses in vivo electrophysiology in rats, relevant to oscillations and inter-regional neural dynamics.
 
 <details>
 <summary>RSS summary</summary>
 
-Parkinsons disease and related movement disorders are accompanied by pathologically synchronized neuronal activity in cortico-basal ganglia circuits. Coordinated reset (CR) stimulation was derived computationally as a means of suppressing such activity at its source, by resetting the phases of the subpopulations of a synchronized network at staggered times. Under spike-timing-dependent plasticity (STDP), the resulting decorrelated firing depresses excitatory coupling and establishes a weakly cou…
+Memory consolidation requires functional synchrony between the hippocampus (HC) and the medial prefrontal cortex (mPFC). The nucleus reuniens (RE) is a structural and functional hub between HC and mPFC. Here, we used in vivo electrophysiology to monitor the hippocampal-thalamic-prefrontal network in rats during non-rapid eye movement (NREM) sleep. We identified ripple-like activity in the RE (120 Hz peak frequency, 45 ms oscillatory duration) that occurred most frequently during NREM sleep and w…
 
 </details>
 
 ---
 
-## [Measuring neuronal input-output operations in vivo with random access projection microscopy](https://www.biorxiv.org/content/10.64898/2026.11.05.764682v1?rss=1)
+## [A consensus spinal cord cell-type atlas across mouse, macaque, and human](https://www.cell.com/neuron/fulltext/S0896-6273(26)00776-2?rss=yes)
+*Neuron*  
+Score: **0.70**  
+Published: 2026-11-12T00:00:00+00:00
+Tags: atlas, cross-species, neurons
+
+The cross-species atlas provides insights into neural organization across species, relevant for cross-species electrophysiology.
+
+<details>
+<summary>RSS summary</summary>
+
+Schmitz, Johansen, et al. build a consensus cell type atlas of the mammalian spinal cord, integrating gene expression, chromatin accessibility, and spatial data across human, macaque, and mouse. Cell identity and laminar position are broadly conserved, while the dorsal horn emerges as the main site of neuronal expression divergence.
+
+</details>
+
+---
+
+## [Constrained Geometric Approach for Robust Local Optic Axis Estimation with Single Input Polarization Sensitive Optical Coherence Tomography](https://www.biorxiv.org/content/10.64898/2026.11.13.766340v1?rss=1)
 *bioRxiv*  
 Score: **0.65**  
-Published: 2026-11-06T00:00:00+00:00
-Tags: neuronal, methods, microscopy
+Published: 2026-11-16T00:00:00+00:00
+Tags: PSOCT, signal processing, imaging
 
-Focuses on electrophysiological methods for neuronal dynamics.
+Focus on neuroimaging and tracking, relevant for physiological signal processing and methodology.
 
 <details>
 <summary>RSS summary</summary>
 
-Neurons transform thousands of synaptic inputs into spiking output, and understanding this transformation requires measuring many submicron synapses at millisecond timescales in vivo. Here we present SLAP2, a two-photon random access projection microscope with no per-target access time cost, yielding over 5-fold faster imaging than existing methods, and performant real-time hardware motion correction. Flexible scanning modes enable measurement of hundreds of synapses at ~200 Hz, >800 synapses vo…
+Polarization-sensitive optical coherence tomography (PSOCT) enables label-free, depth-resolved microstructure mapping in biological tissues, making it a powerful tool for studying myelinated fiber structures in the brain. Conventional single-input PSOCT measures cumulative retardance and apparent optic axis, which become inaccurate when fibers cross over depth. In single-input PSOCT systems, local optic axis estimation is challenging due to high noise levels, limiting the reliability of depth-re…
+
+</details>
+
+---
+
+## [Distinct prelimbic microcircuits control sensory and affective dimensions of neuropathic pain](https://www.nature.com/articles/s41593-026-02498-4)
+*Nature Neuroscience*  
+Score: **0.60**  
+Published: 2026-11-16T00:00:00+00:00
+Tags: neurophysiology, microcircuits
+
+Neurophysiological study on microcircuits, providing insights into neural processing relevant to dynamic neural systems.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>Nature Neuroscience, Published online: 16 November 2026; <a href="https://www.nature.com/articles/s41593-026-02498-4">doi:10.1038/s41593-026-02498-4</a></p>Gan et al. report the cellular mechanisms underlying dysbalance of prefrontal brain activity in mice with neuropathic pain and delineate the circuitry through which the prefrontal cortex exerts top-down control of sensory and emotional aspects of pain.
+
+</details>
+
+---
+
+## [Neural dynamics track the approach to physical exhaustion](https://www.biorxiv.org/content/10.64898/2026.11.12.766118v1?rss=1)
+*bioRxiv*  
+Score: **0.60**  
+Published: 2026-11-13T00:00:00+00:00
+Tags: EEG, oscillations, methods
+
+Focus on neural dynamics with EEG methods links to interest in oscillatory and physiological signal processing.
+
+<details>
+<summary>RSS summary</summary>
+
+Physical exhaustion has long been described through its cardiorespiratory and metabolic cost, while the neural dynamics of its approach remain largely unexplored. Here we recorded high-density electroencephalography in 28 trained cyclists during a maximal incremental test to characterise how neural dynamics change towards exhaustion. As physiological strain rose, oscillatory power shifted to lower frequencies, neural activity became more regular and predictable, and functional coupling extended …
+
+</details>
+
+---
+
+## [Collaboration across scales: More than the sum of its parts](https://www.cell.com/cell/fulltext/S0092-8674(26)01282-1?rss=yes)
+*Cell*  
+Score: **0.60**  
+Published: 2026-11-12T00:00:00+00:00
+Tags: brain mapping, neuroscience, frameworks
+
+The article highlights comprehensive frameworks for human brain mapping, touching on neural dynamics.
+
+<details>
+<summary>RSS summary</summary>
+
+Science is collaborative by nature, but some questions require coordination on an exceptional scale. Among them is the challenge of creating a comprehensive reference framework for the human brain. In this issue of Cell, together with papers published in Cell Genomics, Cell Reports, Cell Reports Methods, Cell Systems, and Neuron, we present the first publication package from the NIH BRAIN Initiative Cell Atlas Network (BICAN).
+
+</details>
+
+---
+
+## [From the human genome to the human brain cell atlas](https://www.cell.com/cell/fulltext/S0092-8674(26)01284-5?rss=yes)
+*Cell*  
+Score: **0.60**  
+Published: 2026-11-12T00:00:00+00:00
+Tags: brain atlas, neuroscience, cross-species
+
+Focuses on cross-species brain mapping, relevant for understanding neural structure and function.
+
+<details>
+<summary>RSS summary</summary>
+
+The BRAIN Initiative Cell Atlas Network (BICAN) is establishing an evolving reference for neuroscience by integrating cell identities, anatomy, and multimodal evidence across species. In analogy with the Human Genome Project, the BICAN basal ganglia atlas is a model for a federated reference to advance understanding of brain organization, function, variation, and disease.
+
+</details>
+
+---
+
+## [Cross-species multiomic atlas of the primate basal ganglia](https://www.cell.com/cell/fulltext/S0092-8674(26)01256-0?rss=yes)
+*Cell*  
+Score: **0.60**  
+Published: 2026-11-12T00:00:00+00:00
+Tags: basal ganglia, cross-species, multimodal
+
+Includes neural data on cross-species comparisons, touching on electrophysiological and anatomical aspects.
+
+<details>
+<summary>RSS summary</summary>
+
+A cross-species multiomic atlas of the primate basal ganglia aligns 1.8 million nuclei from human, macaque, and marmoset into 61 cell types conserved over 76 million years. The atlas reveals that dorsal-ventral spatial identity is more evolutionarily constrained than direct and indirect pathway or striosome and matrix identity, identifies a distinct SMYD2-HTR7 spiny projection neuron type, and links regulatory sequence grammars and psychiatric risk variants to specific cell populations.
+
+</details>
+
+---
+
+## [Generalized hippocampal replay exhibits memory recall-like dynamics](https://www.biorxiv.org/content/10.64898/2026.11.12.766222v1?rss=1)
+*bioRxiv*  
+Score: **0.55**  
+Published: 2026-11-12T00:00:00+00:00
+Tags: hippocampus, neural timescales, dynamics
+
+Addresses neural timescales with a focus on hippocampal dynamics, relevant to computational modeling.
+
+<details>
+<summary>RSS summary</summary>
+
+Hippocampal replay has been intensely studied for theorized roles in memory consolidation, credit assignment in reinforcement learning, and online planning. Much work in the field assumes that replayed trajectories traverse states smoothly and sequentially, in either forward or reverse order of experience. In a synthetic setting, we demonstrate that incorrect transition priors lead to systematic decoding error and show how model comparison addresses this issue. We compare a diverse set of transi…
+
+</details>
+
+---
+
+## [Enhanced skin tone and blood estimation through AI-enabled upscaling of discrete reflectance spectra](https://www.nature.com/articles/s41746-026-03429-0)
+*npj Digital Med*  
+Score: **0.50**  
+Published: 2026-11-13T00:00:00+00:00
+Tags: AI, methods, ECG
+
+Involves AI-driven physiological signal processing, potentially relevant to ECG/respiration.
+
+<details>
+<summary>RSS summary</summary>
+
+<p>npj Digital Medicine, Published online: 13 November 2026; <a href="https://www.nature.com/articles/s41746-026-03429-0">doi:10.1038/s41746-026-03429-0</a></p>Enhanced skin tone and blood estimation through AI-enabled upscaling of discrete reflectance spectra
 
 </details>
 
